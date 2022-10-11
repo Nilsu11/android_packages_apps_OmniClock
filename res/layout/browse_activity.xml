@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+ *  Copyright (C) 2015-2016 The OmniROM Project
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/query_area"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bottom_nav_height"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp">
+
+            <TextView
+                android:id="@+id/query_type_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textAppearance="@android:style/TextAppearance.Material.Subhead" />
+
+            <SearchView
+                android:id="@+id/query_pattern"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:iconifiedByDefault="false"
+                android:queryHint="@string/local_query_hint" />
+
+            <TextView
+                android:id="@+id/query_folder_button"
+                style="@android:style/TextAppearance.Material.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:text="@string/choose_folder"
+                android:textColor="?android:attr/textColorPrimary"
+                android:visibility="gone"
+                android:gravity="center_vertical|end"
+                android:background="?android:attr/selectableItemBackground"/>
+
+            <LinearLayout
+                android:id="@+id/query_paste_url"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/query_paste_url_field"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:hint="@string/url_paste_hint"
+                    android:lines="1"
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead" />
+
+                <ImageView
+                    android:id="@+id/query_paste_url_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingStart="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_plus" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/list_divider_material"
+            android:paddingTop="10dp" />
+
+        <ListView
+            android:id="@+id/query_result"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/query_types"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bottom_nav_height"
+            android:background="@color/bottom_nav_bg"
+            android:orientation="horizontal"
+            android:gravity="center_vertical" >
+
+            <include
+                android:id="@+id/tab_recent"
+                layout="@layout/tab_strip_item"/>
+            <include
+                android:id="@+id/tab_alarms"
+                layout="@layout/tab_strip_item"/>
+            <include
+                android:id="@+id/tab_artist"
+                layout="@layout/tab_strip_item"/>
+            <include
+                android:id="@+id/tab_album"
+                layout="@layout/tab_strip_item"/>
+            <include
+                android:id="@+id/tab_track"
+                layout="@layout/tab_strip_item"/>
+            <include
+                android:id="@+id/tab_playlist"
+                layout="@layout/tab_strip_item"/>
+            <include
+                android:id="@+id/tab_stream"
+                layout="@layout/tab_strip_item"/>
+            <include
+                android:id="@+id/tab_folder"
+                layout="@layout/tab_strip_item"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
