@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings">
+    <PreferenceCategory android:title="@string/global_settings">
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/color_theme_title"
+            android:entries="@array/color_theme_entries"
+            android:entryValues="@array/color_theme_values"
+            android:key="color_theme"
+            android:title="@string/color_theme_title" />
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="@string/default_page_title"
+            android:entries="@array/default_page_entries"
+            android:entryValues="@array/default_page_values"
+            android:key="default_page"
+            android:title="@string/default_page_title" />
+    </PreferenceCategory>x
+    <PreferenceCategory android:title="@string/clock_settings">
+        <ListPreference
+            android:defaultValue="@string/default_clock_style"
+            android:dialogTitle="@string/clock_style"
+            android:entries="@array/clock_style_entries"
+            android:entryValues="@array/clock_style_values"
+            android:key="clock_style"
+            android:title="@string/clock_style"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="analog_clock_settings"
+        android:title="@string/analog_clock_settings">
+        <SwitchPreference
+            android:key="show_date_and_alarm"
+            android:summary="@string/show_date_and_alarm_summary"
+            android:title="@string/show_date_and_alarm_title"/>
+        <SwitchPreference
+            android:key="show_numbers"
+            android:summary="@string/show_numbers_summary"
+            android:title="@string/show_numbers_title"/>
+        <SwitchPreference
+            android:key="show_ticks"
+            android:summary="@string/show_ticks_summary"
+            android:title="@string/show_ticks_title"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/time_zone_settings">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="automatic_home_clock"
+            android:summary="@string/automatic_home_clock_summary"
+            android:title="@string/automatic_home_clock"/>
+        <ListPreference
+            android:dialogTitle="@string/home_time_zone_title"
+            android:entries="@array/timezone_labels"
+            android:entryValues="@array/timezone_values"
+            android:key="home_time_zone"
+            android:title="@string/home_time_zone"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/alarm_settings">
+        <ListPreference
+            android:dialogTitle="@string/week_start_title"
+            android:entryValues="@array/week_start_values"
+            android:key="week_start"
+            android:title="@string/week_start_title"
+            android:defaultValue="0"/>
+        <org.omnirom.deskclock.preference.AutoSilencePickerPreference
+            android:defaultValue="10"
+            android:dialogTitle="@string/auto_silence_title"
+            android:key="silence_after_minutes"
+            android:title="@string/auto_silence_title" />
+        <SwitchPreference
+            android:key="snooze_on_silence"
+            android:summary="@string/snooze_on_silence_summary"
+            android:title="@string/snooze_on_silence_title" />
+        <org.omnirom.deskclock.preference.NumberPickerPreference
+            android:defaultValue="10"
+            android:dialogTitle="@string/snooze_duration_title"
+            android:key="snooze_duration_minutes"
+            android:title="@string/snooze_duration_title" />
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/snooze_count_title"
+            android:entries="@array/snooze_count_entries"
+            android:entryValues="@array/snooze_count_values"
+            android:key="snooze_count"
+            android:title="@string/snooze_count_title" />
+        <ListPreference
+            android:defaultValue="5"
+            android:dialogTitle="@string/volume_increase_speed_title"
+            android:entries="@array/volume_increase_speed_entries"
+            android:entryValues="@array/volume_increase_speed_values"
+            android:key="volume_increase_speed"
+            android:title="@string/volume_increase_speed_title" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pre_alarm_dismiss_all"
+            android:summary="@string/pre_alarm_dismiss_all_summary"
+            android:title="@string/pre_alarm_dismiss_all_title" />
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="@string/audio_stream_title"
+            android:entries="@array/audio_stream_entries"
+            android:entryValues="@array/audio_stream_values"
+            android:key="audio_stream"
+            android:title="@string/audio_stream_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/notification_settings" >
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="wear_notification"
+            android:summary="@string/wear_notification_summary"
+            android:title="@string/wear_notification_title" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pre_alarm_notification_show"
+            android:title="@string/pre_alarm_notification_show_title"
+            android:summary="@string/pre_alarm_notification_show_summary"/>
+        <ListPreference
+            android:defaultValue="-30"
+            android:dialogTitle="@string/pre_alarm_notification_time_title"
+            android:entries="@array/pre_alarm_notification_time_entries"
+            android:entryValues="@array/pre_alarm_notification_time_values"
+            android:key="pre_alarm_notification_time"
+            android:title="@string/pre_alarm_notification_time_title"
+            android:dependency="pre_alarm_notification_show"/>
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="vibrate_notification"
+            android:summary="@string/vibrate_notification_summary"
+            android:title="@string/vibrate_notification_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/fullscreen_alarm_settings"
+        android:key="fullscreen_alarm_settings">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="keep_screen_on"
+            android:summary="@string/keep_screen_on_summary"
+            android:title="@string/keep_screen_on_title" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="make_screen_dark"
+            android:summary="@string/make_screen_dark_summary"
+            android:title="@string/make_screen_dark_title"
+            android:dependency="keep_screen_on"/>
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="show_background_image"
+            android:summary="@string/show_background_image_summary"
+            android:title="@string/show_background_image_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="alarm_action_category"
+        android:title="@string/alarm_action_category">
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/volume_button_setting_title"
+            android:entries="@array/volume_button_setting_entries"
+            android:entryValues="@array/volume_button_setting_values"
+            android:key="volume_button_setting"
+            android:title="@string/volume_button_setting_title" />
+        <Preference
+            android:key="alarm_action_wireless_header"
+            android:summary="@string/alarm_action_wireless_header_title"
+            android:selectable="false" />
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/flip_action_dialog_title"
+            android:entries="@array/volume_button_setting_entries"
+            android:entryValues="@array/volume_button_setting_values"
+            android:key="flip_action_setting"
+            android:title="@string/flip_action_title" />
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/shake_action_dialog_title"
+            android:entries="@array/volume_button_setting_entries"
+            android:entryValues="@array/volume_button_setting_values"
+            android:key="shake_action_setting"
+            android:title="@string/shake_action_title" />
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/wave_action_dialog_title"
+            android:entries="@array/volume_button_setting_entries"
+            android:entryValues="@array/volume_button_setting_values"
+            android:key="wave_action_setting"
+            android:title="@string/wave_action_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/timer_settings" >
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="timer_alarm_custom"
+            android:summary="@string/timer_alarm_custom_summary"
+            android:title="@string/timer_alarm_custom_title" />
+        <RingtonePreference
+            android:key="timer_alarm"
+            android:title="@string/timer_alarm_title"
+            android:ringtoneType="alarm"
+            android:showSilent="true"
+            android:showDefault="true"
+            android:dependency="timer_alarm_custom" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="timer_alarm_vibrate"
+            android:title="@string/alarm_vibrate" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="timer_alarm_increase_volume"
+            android:title="@string/alarm_increasing_volume" />
+        <ListPreference
+            android:defaultValue="5"
+            android:dialogTitle="@string/volume_increase_speed_title"
+            android:entries="@array/volume_increase_speed_entries"
+            android:entryValues="@array/volume_increase_speed_values"
+            android:key="timer_alarm_increase_volume_speed"
+            android:title="@string/volume_increase_speed_title"
+            android:dependency="timer_alarm_increase_volume"/>
+    </PreferenceCategory>
+</PreferenceScreen>
