@@ -1,0 +1,7 @@
+-keepclassmembers class org.omnirom.deskclock.DeskClock {
+  *** clockButtonsOnClick(...);
+}
+-keep class org.omnirom.deskclock.timer.TimerListItem {
+  *** setAnimatedHeight(...);
+}
+
