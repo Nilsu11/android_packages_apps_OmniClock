@@ -1,6 +1,8 @@
+// SdkVersion
 version = 28
+// SdkDir
 aospsdkdir = ../../../../Android/Sdk
-    apply plugin: 'com.android.application'
+    apply plugin: 'com.android.library'
 
     android {
         compileSdkVersion version
@@ -11,7 +13,6 @@ aospsdkdir = ../../../../Android/Sdk
         }
 
         defaultConfig {
-            applicationId "org.omnirom.deskclock"
 
             minSdkVersion 26
             targetSdkVersion version
