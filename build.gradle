@@ -70,7 +70,7 @@ aospsdkdir = ../../../Android/Sdk
 
         sourceSets {
             main {
-                manifest.srcFile '../AndroidManifest.xml'
+                manifest.srcFile 'AndroidManifest.xml'
 
                 java.srcDirs = ['src']
                 renderscript.srcDirs = ['src']
