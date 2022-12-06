@@ -174,7 +174,7 @@ public class TimePickerDialog extends DialogFragment implements
          * @param minute The minute that was set.
          * @param second The second that was set
          */
-        void onTimeSet(RadialPickerLayout view, int hourOfDay, int minute, int second);
+        void onTimeSet(RadialPickerLayout radialpickerlayout, int hourOfDay, int minute, int second);
     }
 
     public TimePickerDialog() {
