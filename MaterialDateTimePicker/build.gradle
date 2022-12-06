@@ -86,5 +86,5 @@ aospsdkdir = ../../../../Android/Sdk
         implementation files("../libs/support-v13-28.0.0.aar")
         implementation files("../libs/support-v4-24.0.0.aar")
         implementation files("../libs/cardview-v7-28.0.0.aar")
-        implementation files("${aospsdkdir}/platforms/android-${version}/optional/org.apache.http.legacy.jar")
+        implementation "com.google.android.material:material:1.1.0"
     }
