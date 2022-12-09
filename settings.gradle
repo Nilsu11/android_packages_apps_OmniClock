@@ -1,1 +1,1 @@
-include ':OmniClock', ':OmniClock:MaterialDateTimePicker
+include ':Clock', ':Clock:MaterialDateTimePicker
