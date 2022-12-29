@@ -1,5 +1,5 @@
 version = 28
-aospsdkdir = ../../../Android/Sdk
+
     apply plugin: 'com.android.application'
 
     android {
@@ -72,10 +72,10 @@ aospsdkdir = ../../../Android/Sdk
             main {
                 manifest.srcFile 'AndroidManifest.xml'
 
-                java.srcDirs = ['src']
-                renderscript.srcDirs = ['src']
-                res.srcDirs = ['res']
-                resources.srcDirs = ['res']
+                java.srcDirs = ['src', 'MaterialDateTimePicker/src']
+                renderscript.srcDirs = ['src', 'MaterialDateTimePicker/src']
+                res.srcDirs = ['res', 'MDTPres']
+                resources.srcDirs = ['res', 'MDTPres']
             }
         }
     }
@@ -85,6 +85,6 @@ aospsdkdir = ../../../Android/Sdk
         implementation files("../libs/support-v13-28.0.0.aar")
         implementation files("../libs/support-v4-24.0.0.aar")
         implementation files("../libs/cardview-v7-28.0.0.aar")
-        implementation files("${aospsdkdir}/platforms/android-${version}/optional/org.apache.http.legacy.jar")
-        implementation project (':Clock:MaterialDateTimePicker')
+        implementation files("../../../Android/Sdk/platforms/android-${version}/optional/org.apache.http.legacy.jar")
+        //implementation project (':Clock:MaterialDateTimePicker')
     }
