@@ -29,7 +29,7 @@ import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v4.view.ViewPager;
+import androidx.viewpager.widget.ViewPager;
 import android.text.format.DateUtils;
 import android.transition.AutoTransition;
 import android.transition.Transition;

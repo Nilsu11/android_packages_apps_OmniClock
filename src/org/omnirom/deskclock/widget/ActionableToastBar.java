@@ -15,6 +15,7 @@
  */
 
 package org.omnirom.deskclock.widget;
+import org.omnirom.deskclock.R;
 
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
@@ -33,6 +34,7 @@ import android.widget.TextView;
  * A custom {@link View} that exposes an action to the user.
  * <p>
  * This is a copy of packages/apps/UnifiedEmail/src/com/android/mail/ui/ActionableToastBar.java
+import org.omnirom.deskclock.R;
  * with minor modifications.
  */
 public class ActionableToastBar extends LinearLayout {
@@ -162,7 +164,7 @@ public class ActionableToastBar extends LinearLayout {
 
     private Animator getShowAnimation() {
         if (mShowAnimation == null) {
-            mShowAnimation = AnimatorInflater.loadAnimator(getContext(), org.omnirom.deskclock.R.animator.fade_in);
+            mShowAnimation = AnimatorInflater.loadAnimator(getContext(), org.omnirom.deskclock.R.anim.abc_fade_in);
             mShowAnimation.addListener(new AnimatorListenerAdapter() {
                 @Override
                 public void onAnimationStart(Animator animation) {
@@ -184,7 +186,7 @@ public class ActionableToastBar extends LinearLayout {
 
     private Animator getHideAnimation() {
         if (mHideAnimation == null) {
-            mHideAnimation = AnimatorInflater.loadAnimator(getContext(), org.omnirom.deskclock.R.animator.fade_out);
+            mHideAnimation = AnimatorInflater.loadAnimator(getContext(), org.omnirom.deskclock.R.anim.abc_fade_out);
             mHideAnimation.addListener(new AnimatorListenerAdapter() {
                 @Override
                 public void onAnimationEnd(Animator animation) {

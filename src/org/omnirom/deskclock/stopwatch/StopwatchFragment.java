@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 package org.omnirom.deskclock.stopwatch;
+import org.omnirom.deskclock.R;
 
 import android.animation.AnimatorSet;
 import android.animation.LayoutTransition;

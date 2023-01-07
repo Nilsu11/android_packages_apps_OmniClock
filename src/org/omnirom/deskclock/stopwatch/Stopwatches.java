@@ -15,6 +15,7 @@
  */
 
 package org.omnirom.deskclock.stopwatch;
+import org.omnirom.deskclock.R;
 
 import android.content.Context;
 

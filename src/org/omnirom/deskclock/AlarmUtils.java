@@ -15,6 +15,7 @@
  */
 
 package org.omnirom.deskclock;
+import org.omnirom.deskclock.R;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -71,19 +72,10 @@ public class AlarmUtils {
             ft.remove(prev);
         }
         ft.commit();
-
-        final int hour, minute;
-        if (alarm == null) {
-            final Calendar c = Calendar.getInstance();
-            hour = c.get(Calendar.HOUR_OF_DAY);
-            minute = c.get(Calendar.MINUTE);
-        } else {
-            hour = alarm.hour;
-            minute = alarm.minutes;
-        }
-        final TimePickerDialog timePickerFragment = TimePickerDialog.newInstance((TimePickerDialog.OnTimeSetListener)fragment,
-                hour, minute, DateFormat.is24HourFormat(fragment.getActivity()),
-                Utils.getThemeId(fragment.getActivity()));
+        final TimePickerFragment timePickerFragment = new TimePickerFragment();
+        timePickerFragment.setTargetFragment(fragment, 0);
+        timePickerFragment.setOnTimeSetListener((TimePickerDialog.OnTimeSetListener) fragment);
+        timePickerFragment.setAlarm(alarm);
         timePickerFragment.show(manager, FRAG_TAG_TIME_PICKER);
     }
 

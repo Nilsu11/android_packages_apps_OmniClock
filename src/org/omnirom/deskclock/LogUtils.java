@@ -16,9 +16,11 @@
 
 /**
  * package-level logging flag
+import org.omnirom.deskclock.R;
  */
 
 package org.omnirom.deskclock;
+import org.omnirom.deskclock.R;
 
 import android.os.Build;
 import android.util.Log;

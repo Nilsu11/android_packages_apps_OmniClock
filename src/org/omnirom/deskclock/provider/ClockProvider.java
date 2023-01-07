@@ -15,6 +15,7 @@
  */
 
 package org.omnirom.deskclock.provider;
+import org.omnirom.deskclock.R;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;

@@ -1,4 +1,5 @@
 package org.omnirom.deskclock.alarms;
+import org.omnirom.deskclock.R;
 
 /**
  * Created by maxl on 9/1/16.

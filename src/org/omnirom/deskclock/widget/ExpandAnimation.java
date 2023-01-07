@@ -1,4 +1,5 @@
 package org.omnirom.deskclock.widget;
+import org.omnirom.deskclock.R;
 
 import android.view.View;
 import android.view.animation.Animation;

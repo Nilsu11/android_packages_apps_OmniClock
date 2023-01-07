@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/linux/modLOS/OmniClock/Clock/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w270dp-h560dp-v13/values-w270dp-h560dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/linux/modLOS/OmniClock/Clock/MDTPres/values-w270dp-h560dp/dimens.xml",
+                    "from": {
+                        "startLines": "23,26,24,27,25",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "801,988,870,1048,928",
+                        "endColumns": "68,59,57,60,59",
+                        "endOffsets": "865,1043,923,1104,983"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,124,184,242,303",
+                        "endColumns": "68,59,57,60,59",
+                        "endOffsets": "119,179,237,298,358"
+                    }
+                }
+            ]
+        }
+    ]
+}

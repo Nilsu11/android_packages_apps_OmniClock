@@ -15,6 +15,7 @@
  */
 
 package org.omnirom.deskclock.worldclock;
+import org.omnirom.deskclock.R;
 
 import android.content.SharedPreferences;
 import android.util.Log;

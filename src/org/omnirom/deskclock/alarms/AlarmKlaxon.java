@@ -15,6 +15,7 @@
  */
 
 package org.omnirom.deskclock.alarms;
+import org.omnirom.deskclock.R;
 
 import java.io.File;
 import java.io.IOException;

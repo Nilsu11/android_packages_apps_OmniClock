@@ -15,6 +15,7 @@
  */
 
 package org.omnirom.deskclock.preference;
+import org.omnirom.deskclock.R;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

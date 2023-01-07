@@ -15,6 +15,7 @@
  */
 
 package org.omnirom.deskclock;
+import org.omnirom.deskclock.R;
 
 import android.animation.AnimatorSet;
 import android.app.Activity;
@@ -27,7 +28,7 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.os.Handler;
 import android.preference.PreferenceManager;
-import android.support.v7.widget.CardView;
+import androidx.cardview.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

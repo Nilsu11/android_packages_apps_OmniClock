@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2014 The OmniROM Project
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="snooze_count_entries" translatable="false">
+        <item>@string/entry_zero_count</item>
+        <item>@string/entry_one_count</item>
+        <item>@string/entry_three_count</item>
+        <item>@string/entry_five_count</item>
+        <item>@string/entry_ten_count</item>
+    </string-array>
+    <string-array name="snooze_count_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="alarm_type_entries" translatable="false">
+        <item>@string/musicType</item>
+        <item>@string/folderType</item>
+        <item>@string/randomMusicType</item>
+    </string-array>
+    <string-array name="volume_increase_speed_entries" translatable="false">
+        <item>@string/entry_five_secs</item>
+        <item>@string/entry_ten_secs</item>
+        <item>@string/entry_fifteen_secs</item>
+        <item>@string/entry_thirty_secs</item>
+    </string-array>
+    <string-array name="volume_increase_speed_values" translatable="false">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="pre_alarm_times_entries" translatable="false">
+        <item>@string/entry_one_minute</item>
+        <item>@string/entry_three_minute</item>
+        <item>@string/entry_five_minute</item>
+        <item>@string/entry_ten_minute</item>
+        <item>@string/entry_fifteen_minute</item>
+        <item>@string/entry_thirty_minute</item>
+    </string-array>
+    <string-array name="pre_alarm_times_values" translatable="false">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="week_start_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="audio_stream_entries" translatable="false">
+        <item>@string/audio_stream_alam</item>
+        <item>@string/audio_stream_music</item>
+    </string-array>
+    <string-array name="audio_stream_values" translatable="false">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="pre_alarm_notification_time_entries" translatable="false">
+        <item>@string/entry_five_minute</item>
+        <item>@string/entry_ten_minute</item>
+        <item>@string/entry_fifteen_minute</item>
+        <item>@string/entry_thirty_minute</item>
+        <item>@string/entry_sixty_minute</item>
+    </string-array>
+    <string-array name="pre_alarm_notification_time_values" translatable="false">
+        <item>-5</item>
+        <item>-10</item>
+        <item>-15</item>
+        <item>-30</item>
+        <item>-60</item>
+    </string-array>
+    <string-array name="color_theme_entries" translatable="false">
+        <item>@string/color_theme_light</item>
+        <item>@string/color_theme_dark</item>
+        <item>@string/color_theme_black</item>
+    </string-array>
+    <string-array name="color_theme_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="auto_silence_entries_new" translatable="false">
+        <item>@string/entry_one_minute</item>
+        <item>@string/entry_five_minute</item>
+        <item>@string/entry_ten_minute</item>
+        <item>@string/entry_fifteen_minute</item>
+        <item>@string/entry_thirty_minute</item>
+        <item>@string/auto_silence_never</item>
+    </string-array>
+    <string-array name="auto_silence_values_new" translatable="false">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>-1</item> <!-- Off -->
+    </string-array>
+    <string-array name="default_page_entries" translatable="false">
+        <item>@string/menu_alarm</item>
+        <item>@string/menu_clock</item>
+        <item>@string/menu_timer</item>
+        <item>@string/menu_stopwatch</item>
+    </string-array>
+    <string-array name="default_page_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

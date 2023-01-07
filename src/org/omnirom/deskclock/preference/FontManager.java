@@ -5,6 +5,7 @@
  */
 
 package org.omnirom.deskclock.preference;
+import org.omnirom.deskclock.R;
 
 import java.io.File;
 import java.io.FileNotFoundException;

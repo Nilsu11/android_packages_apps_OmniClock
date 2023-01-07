@@ -30,7 +30,7 @@ import android.support.annotation.ColorInt;
 import android.support.annotation.IntRange;
 import android.support.annotation.NonNull;
 import android.support.annotation.StringRes;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 import android.util.Log;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
@@ -48,7 +48,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.wdullaer.materialdatetimepicker.HapticFeedbackController;
-import com.wdullaer.materialdatetimepicker.R;
+import org.omnirom.deskclock.R;
 import com.wdullaer.materialdatetimepicker.Utils;
 import com.wdullaer.materialdatetimepicker.time.RadialPickerLayout.OnValueSelectedListener;
 

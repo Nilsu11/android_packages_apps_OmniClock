@@ -1,6 +1,7 @@
 // Copyright 2013 Google Inc. All Rights Reserved.
 
 package org.omnirom.deskclock.widget;
+import org.omnirom.deskclock.R;
 
 import android.content.ContentResolver;
 import android.content.Context;

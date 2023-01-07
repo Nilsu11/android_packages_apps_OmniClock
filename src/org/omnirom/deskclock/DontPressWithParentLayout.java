@@ -15,6 +15,7 @@
  */
 
 package org.omnirom.deskclock;
+import org.omnirom.deskclock.R;
 
 import android.content.Context;
 import android.util.AttributeSet;

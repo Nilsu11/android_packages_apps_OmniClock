@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="alarm_set">
+    <item msgid="6450913786084215050">"La alarma sonará en menos de un minuto."</item>
+    <item msgid="6002066367368421848">"La alarma sonará en <ns1:g id="DAYS">%1$s</ns1:g>."</item>
+    <item msgid="8824719306247973774">"La alarma sonará en <ns1:g id="HOURS">%2$s</ns1:g>."</item>
+    <item msgid="8182406852935468862">"La alarma sonará en <ns1:g id="DAYS">%1$s</ns1:g> y <ns1:g id="HOURS">%2$s</ns1:g>."</item>
+    <item msgid="2532279224777213194">"La alarma sonará en <ns1:g id="MINUTES">%3$s</ns1:g>."</item>
+    <item msgid="5936557894247187717">"La alarma sonará en <ns1:g id="DAYS">%1$s</ns1:g> y <ns1:g id="MINUTES">%3$s</ns1:g>."</item>
+    <item msgid="9115697840826129603">"La alarma sonará en <ns1:g id="HOURS">%2$s</ns1:g> y <ns1:g id="MINUTES">%3$s</ns1:g>."</item>
+    <item msgid="2332583385137381060">"La alarma sonará en <ns1:g id="DAYS">%1$s</ns1:g>, <ns1:g id="HOURS">%2$s</ns1:g> y <ns1:g id="MINUTES">%3$s</ns1:g>."</item>
+  </string-array>
+    <string-array name="auto_silence_entries">
+    <item msgid="3693401222993867634">"5 minutos"</item>
+    <item msgid="3663730603519549990">"10 minutos"</item>
+    <item msgid="1385481095199681200">"15 minutos"</item>
+    <item msgid="420479821767342125">"20 minutos"</item>
+    <item msgid="2107936130151066746">"25 minutos"</item>
+    <item msgid="7219791437023378544">"30 minutos"</item>
+    <item msgid="4278641338024561333">"Nunca"</item>
+  </string-array>
+    <string-array name="cities_names">
+    <item msgid="4653806289288974388">"<ns1:g id="SEPARATOR">=</ns1:g>Abiyán"</item>
+    <item msgid="4864167603178202155">"<ns1:g id="SEPARATOR">=</ns1:g>Acra"</item>
+    <item msgid="6478898553803167749">"<ns1:g id="SEPARATOR">=</ns1:g>Adís Abeba"</item>
+    <item msgid="5618029992528436448">"<ns1:g id="SEPARATOR">=</ns1:g>Argel"</item>
+    <item msgid="2906834750114790793">"<ns1:g id="SEPARATOR">=</ns1:g>Blantyre"</item>
+    <item msgid="8153571933836629863">"<ns1:g id="SEPARATOR">=</ns1:g>Brazzaville"</item>
+    <item msgid="3703129580594640833">"E<ns1:g id="SEPARATOR">=</ns1:g>El Cairo"</item>
+    <item msgid="2300915410194647320">"<ns1:g id="SEPARATOR">=</ns1:g>Casablanca"</item>
+    <item msgid="1217039002304887948">"<ns1:g id="SEPARATOR">=</ns1:g>Conakri"</item>
+    <item msgid="8775104707806220928">"<ns1:g id="SEPARATOR">=</ns1:g>Dakar"</item>
+    <item msgid="5948764589113643811">"<ns1:g id="SEPARATOR">=</ns1:g>Dar es-Salam"</item>
+    <item msgid="6306254507715416077">"Y<ns1:g id="SEPARATOR">=</ns1:g>Yibuti"</item>
+    <item msgid="4286108029159501866">"<ns1:g id="SEPARATOR">=</ns1:g>Freetown"</item>
+    <item msgid="4514786733035528116">"<ns1:g id="SEPARATOR">=</ns1:g>Gaborone"</item>
+    <item msgid="7367496854968219671">"<ns1:g id="SEPARATOR">=</ns1:g>Harare"</item>
+    <item msgid="6837746379726020288">"<ns1:g id="SEPARATOR">=</ns1:g>Johannesburgo"</item>
+    <item msgid="6284185156591171506">"<ns1:g id="SEPARATOR">=</ns1:g>Kampala"</item>
+    <item msgid="3299518884693668985">"J<ns1:g id="SEPARATOR">=</ns1:g>Jartum"</item>
+    <item msgid="4614879508966043969">"<ns1:g id="SEPARATOR">=</ns1:g>Kigali"</item>
+    <item msgid="8878437043772547732">"<ns1:g id="SEPARATOR">=</ns1:g>Kinsasa"</item>
+    <item msgid="6325601635544067909">"<ns1:g id="SEPARATOR">=</ns1:g>Lagos"</item>
+    <item msgid="6094357506290323524">"<ns1:g id="SEPARATOR">=</ns1:g>Maseru"</item>
+    <item msgid="7270525814400329098">"<ns1:g id="SEPARATOR">=</ns1:g>Mogadiscio"</item>
+    <item msgid="353110101402547540">"<ns1:g id="SEPARATOR">=</ns1:g>Nairobi"</item>
+    <item msgid="1688121892646984549">"<ns1:g id="SEPARATOR">=</ns1:g>São Tomé"</item>
+    <item msgid="3642219084651687800">"<ns1:g id="SEPARATOR">=</ns1:g>Tombuctú"</item>
+    <item msgid="7287513493631179463">"<ns1:g id="SEPARATOR">=</ns1:g>Trípoli"</item>
+    <item msgid="5052614613671591560">"<ns1:g id="SEPARATOR">=</ns1:g>Túnez"</item>
+    <item msgid="7976303179193839859">"<ns1:g id="SEPARATOR">=</ns1:g>Anchorage"</item>
+    <item msgid="193703779380497120">"C<ns1:g id="SEPARATOR">=</ns1:g>Ciudad de Mendoza"</item>
+    <item msgid="5448884981082519628">"<ns1:g id="SEPARATOR">=</ns1:g>Aruba"</item>
+    <item msgid="1577938273323914773">"<ns1:g id="SEPARATOR">=</ns1:g>Asunción"</item>
+    <item msgid="5617155978105010520">"<ns1:g id="SEPARATOR">=</ns1:g>Barbados"</item>
+    <item msgid="3600025702357376322">"<ns1:g id="SEPARATOR">=</ns1:g>Belice"</item>
+    <item msgid="2847679817118467051">"<ns1:g id="SEPARATOR">=</ns1:g>Bogotá"</item>
+    <item msgid="9029003541681282929">"<ns1:g id="SEPARATOR">=</ns1:g>Buenos Aires"</item>
+    <item msgid="2338367960332622522">"<ns1:g id="SEPARATOR">=</ns1:g>Cancún"</item>
+    <item msgid="4339797536047170278">"<ns1:g id="SEPARATOR">=</ns1:g>Caracas"</item>
+    <item msgid="9199080438977757863">"I<ns1:g id="SEPARATOR">=</ns1:g>Islas Caimán"</item>
+    <item msgid="1993203473281589891">"<ns1:g id="SEPARATOR">=</ns1:g>Chicago"</item>
+    <item msgid="7990342776303470263">"<ns1:g id="SEPARATOR">=</ns1:g>Costa Rica"</item>
+    <item msgid="5676109900908808628">"<ns1:g id="SEPARATOR">=</ns1:g>Curaçao"</item>
+    <item msgid="5519120432577564812">"<ns1:g id="SEPARATOR">=</ns1:g>Dawson Creek"</item>
+    <item msgid="2126228972377380680">"<ns1:g id="SEPARATOR">=</ns1:g>Denver"</item>
+    <item msgid="3298410632922319193">"<ns1:g id="SEPARATOR">=</ns1:g>Detroit"</item>
+    <item msgid="2819032085688382805">"<ns1:g id="SEPARATOR">=</ns1:g>Dominica"</item>
+    <item msgid="6170433208654553821">"<ns1:g id="SEPARATOR">=</ns1:g>Edmonton"</item>
+    <item msgid="795461860173291499">"<ns1:g id="SEPARATOR">=</ns1:g>El Salvador"</item>
+    <item msgid="7872196528637597794">"<ns1:g id="SEPARATOR">=</ns1:g>Fortaleza"</item>
+    <item msgid="5801558418916235541">"I<ns1:g id="SEPARATOR">=</ns1:g>Isla Gran Turca"</item>
+    <item msgid="2103759276235503048">"<ns1:g id="SEPARATOR">=</ns1:g>Granada"</item>
+    <item msgid="6216160110733510854">"C<ns1:g id="SEPARATOR">=</ns1:g>Ciudad de Guatemala"</item>
+    <item msgid="525959305652046261">"<ns1:g id="SEPARATOR">=</ns1:g>Guyana"</item>
+    <item msgid="7565596629973190931">"<ns1:g id="SEPARATOR">=</ns1:g>Halifax"</item>
+    <item msgid="3811169155065582644">"L<ns1:g id="SEPARATOR">=</ns1:g>La Habana"</item>
+    <item msgid="3733555435078090201">"<ns1:g id="SEPARATOR">=</ns1:g>Indianápolis"</item>
+    <item msgid="226982663848410981">"<ns1:g id="SEPARATOR">=</ns1:g>Knox"</item>
+    <item msgid="3815293080342229459">"<ns1:g id="SEPARATOR">=</ns1:g>Marengo"</item>
+    <item msgid="6594853515451547389">"<ns1:g id="SEPARATOR">=</ns1:g>Petersburg"</item>
+    <item msgid="6091571889213283534">"<ns1:g id="SEPARATOR">=</ns1:g>Tell City"</item>
+    <item msgid="3089369312058696669">"<ns1:g id="SEPARATOR">=</ns1:g>Vevay"</item>
+    <item msgid="1334860422444068943">"<ns1:g id="SEPARATOR">=</ns1:g>Vincennes"</item>
+    <item msgid="7775105082093691756">"<ns1:g id="SEPARATOR">=</ns1:g>Winamac"</item>
+    <item msgid="4043335541899184547">"<ns1:g id="SEPARATOR">=</ns1:g>Kingston"</item>
+    <item msgid="1063757593477259280">"<ns1:g id="SEPARATOR">=</ns1:g>Nuestra Señora de La Paz"</item>
+    <item msgid="349901732062388869">"<ns1:g id="SEPARATOR">=</ns1:g>Lima"</item>
+    <item msgid="4977592519316837842">"<ns1:g id="SEPARATOR">=</ns1:g>Los Ángeles"</item>
+    <item msgid="7713051790509638572">"<ns1:g id="SEPARATOR">=</ns1:g>Louisville"</item>
+    <item msgid="8460620935898405225">"<ns1:g id="SEPARATOR">=</ns1:g>Managua"</item>
+    <item msgid="8328345293081464192">"<ns1:g id="SEPARATOR">=</ns1:g>Martinica"</item>
+    <item msgid="8010357327448619637">"C<ns1:g id="SEPARATOR">=</ns1:g>Ciudad de Mendoza"</item>
+    <item msgid="2046777213916219253">"<ns1:g id="SEPARATOR">=</ns1:g>Metlakatla"</item>
+    <item msgid="2227885609632709258">"C<ns1:g id="SEPARATOR">=</ns1:g>Ciudad de México"</item>
+    <item msgid="9089629663998569289">"<ns1:g id="SEPARATOR">=</ns1:g>Monterrey"</item>
+    <item msgid="2782276175306930748">"<ns1:g id="SEPARATOR">=</ns1:g>Montevideo"</item>
+    <item msgid="4942386959622269480">"<ns1:g id="SEPARATOR">=</ns1:g>Montreal"</item>
+    <item msgid="3068203952968918165">"<ns1:g id="SEPARATOR">=</ns1:g>Nasáu"</item>
+    <item msgid="4234515454127289962">"<ns1:g id="SEPARATOR">=</ns1:g>Nueva York"</item>
+    <item msgid="1660551302087304308">"<ns1:g id="SEPARATOR">=</ns1:g>Beulah"</item>
+    <item msgid="415823390775449071">"<ns1:g id="SEPARATOR">=</ns1:g>Center"</item>
+    <item msgid="6644186958433380884">"<ns1:g id="SEPARATOR">=</ns1:g>New Salem"</item>
+    <item msgid="6408587617047971798">"<ns1:g id="SEPARATOR">=</ns1:g>Panamá"</item>
+    <item msgid="5576899364199447991">"<ns1:g id="SEPARATOR">=</ns1:g>Phoenix"</item>
+    <item msgid="5541266909095409447">"<ns1:g id="SEPARATOR">=</ns1:g>Puerto España"</item>
+    <item msgid="6417519313622785932">"<ns1:g id="SEPARATOR">=</ns1:g>Puerto Príncipe"</item>
+    <item msgid="2078589249210571366">"<ns1:g id="SEPARATOR">=</ns1:g>Puerto Rico"</item>
+    <item msgid="8522030474373927681">"<ns1:g id="SEPARATOR">=</ns1:g>Santo Domingo"</item>
+    <item msgid="4763853453317431594">"<ns1:g id="SEPARATOR">=</ns1:g>São Paulo"</item>
+    <item msgid="2713153284784311646">"<ns1:g id="SEPARATOR">=</ns1:g>Saint John"</item>
+    <item msgid="8252666620333105271">"I<ns1:g id="SEPARATOR">=</ns1:g>Isla de San Cristóbal"</item>
+    <item msgid="4851597775036027515">"<ns1:g id="SEPARATOR">=</ns1:g>Santa Lucía"</item>
+    <item msgid="2395485473100271503">"<ns1:g id="SEPARATOR">=</ns1:g>Saint Thomas"</item>
+    <item msgid="4148037555658225145">"<ns1:g id="SEPARATOR">=</ns1:g>Tijuana"</item>
+    <item msgid="3491199166042475853">"<ns1:g id="SEPARATOR">=</ns1:g>Toronto"</item>
+    <item msgid="1506838283840737263">"<ns1:g id="SEPARATOR">=</ns1:g>Vancouver"</item>
+    <item msgid="8935386104773857399">"<ns1:g id="SEPARATOR">=</ns1:g>Winnipeg"</item>
+    <item msgid="498429228419399474">"P<ns1:g id="SEPARATOR">=</ns1:g>Polo Sur<ns1:g id="PHONETIC">:</ns1:g>"</item>
+    <item msgid="4076962667198039206">"<ns1:g id="SEPARATOR">=</ns1:g>Longyearbyen"</item>
+    <item msgid="3784788073896028355">"<ns1:g id="SEPARATOR">=</ns1:g>Almatý"</item>
+    <item msgid="7895695236056852523">"<ns1:g id="SEPARATOR">=</ns1:g>Amán"</item>
+    <item msgid="1795426532295280371">"<ns1:g id="SEPARATOR">=</ns1:g>Anádyr"</item>
+    <item msgid="7194236926158343552">"<ns1:g id="SEPARATOR">=</ns1:g>Aktau"</item>
+    <item msgid="4796350130854360870">"<ns1:g id="SEPARATOR">=</ns1:g>Bagdad"</item>
+    <item msgid="4020105434451091851">"<ns1:g id="SEPARATOR">=</ns1:g>Bahréin"</item>
+    <item msgid="3895868797052686484">"<ns1:g id="SEPARATOR">=</ns1:g>Bakú"</item>
+    <item msgid="228001522630057957">"<ns1:g id="SEPARATOR">=</ns1:g>Bangkok"</item>
+    <item msgid="5555647809114820537">"<ns1:g id="SEPARATOR">=</ns1:g>Beirut"</item>
+    <item msgid="2960873998178478784">"<ns1:g id="SEPARATOR">=</ns1:g>Calcuta"</item>
+    <item msgid="8765555959722950691">"<ns1:g id="SEPARATOR">=</ns1:g>Damasco"</item>
+    <item msgid="4979709428925196546">"<ns1:g id="SEPARATOR">=</ns1:g>Dacca"</item>
+    <item msgid="310419600200885308">"<ns1:g id="SEPARATOR">=</ns1:g>Dubái"</item>
+    <item msgid="1203379132329159260">"<ns1:g id="SEPARATOR">=</ns1:g>Gaza"</item>
+    <item msgid="2359068282340162319">"<ns1:g id="SEPARATOR">=</ns1:g>Hebrón"</item>
+    <item msgid="6223396610551759129">"<ns1:g id="SEPARATOR">=</ns1:g>Ho Chi Minh"</item>
+    <item msgid="3439764751788710130">"<ns1:g id="SEPARATOR">=</ns1:g>Hong Kong<ns1:g id="PHONETIC">:</ns1:g>"</item>
+    <item msgid="8104778702069607166">"E<ns1:g id="SEPARATOR">=</ns1:g>Estambul"</item>
+    <item msgid="758800913783999425">"Y<ns1:g id="SEPARATOR">=</ns1:g>Yakarta"</item>
+    <item msgid="8956406398692698126">"<ns1:g id="SEPARATOR">=</ns1:g>Jerusalén"</item>
+    <item msgid="1664426577433326419">"<ns1:g id="SEPARATOR">=</ns1:g>Kabul"</item>
+    <item msgid="7700349511508357396">"<ns1:g id="SEPARATOR">=</ns1:g>Karachi"</item>
+    <item msgid="5273241794521591984">"<ns1:g id="SEPARATOR">=</ns1:g>Katmandú"</item>
+    <item msgid="4754850915168634158">"<ns1:g id="SEPARATOR">=</ns1:g>Kuala Lumpur"</item>
+    <item msgid="5187849635785055693">"<ns1:g id="SEPARATOR">=</ns1:g>Kuwait"</item>
+    <item msgid="2923385979252179376">"<ns1:g id="SEPARATOR">=</ns1:g>Macao"</item>
+    <item msgid="722458682107911739">"<ns1:g id="SEPARATOR">=</ns1:g>Manila"</item>
+    <item msgid="6033964325069060422">"<ns1:g id="SEPARATOR">=</ns1:g>Mascate"</item>
+    <item msgid="6077458941399984780">"<ns1:g id="SEPARATOR">=</ns1:g>Phnom Penh"</item>
+    <item msgid="1245515372520913197">"<ns1:g id="SEPARATOR">=</ns1:g>Pionyang<ns1:g id="PHONETIC">:</ns1:g>"</item>
+    <item msgid="5336632319992664889">"C<ns1:g id="SEPARATOR">=</ns1:g>Catar"</item>
+    <item msgid="1667243110545095146">"<ns1:g id="SEPARATOR">=</ns1:g>Rangún"</item>
+    <item msgid="4460370766685855731">"<ns1:g id="SEPARATOR">=</ns1:g>Riad"</item>
+    <item msgid="4229224905931739201">"<ns1:g id="SEPARATOR">=</ns1:g>Saigón"</item>
+    <item msgid="8705359848250215620">"<ns1:g id="SEPARATOR">=</ns1:g>Seúl"</item>
+    <item msgid="3814881931186962624">"<ns1:g id="SEPARATOR">=</ns1:g>Shanghái<ns1:g id="PHONETIC">:</ns1:g>"</item>
+    <item msgid="1422156732794771136">"<ns1:g id="SEPARATOR">=</ns1:g>Singapur"</item>
+    <item msgid="8982451946156859368">"<ns1:g id="SEPARATOR">=</ns1:g>Taipéi<ns1:g id="PHONETIC">:</ns1:g>"</item>
+    <item msgid="5563193560935461106">"<ns1:g id="SEPARATOR">=</ns1:g>Teherán"</item>
+    <item msgid="8629402941285674273">"<ns1:g id="SEPARATOR">=</ns1:g>Tel Aviv"</item>
+    <item msgid="76330681636547168">"<ns1:g id="SEPARATOR">=</ns1:g>Tokio<ns1:g id="PHONETIC">:</ns1:g>"</item>
+    <item msgid="1705804745888992744">"<ns1:g id="SEPARATOR">=</ns1:g>Ulán Bator"</item>
+    <item msgid="2028626988021468640">"<ns1:g id="SEPARATOR">=</ns1:g>Bermudas"</item>
+    <item msgid="4527109966513690429">"<ns1:g id="SEPARATOR">=</ns1:g>Canarias"</item>
+    <item msgid="4886308317040330383">"<ns1:g id="SEPARATOR">=</ns1:g>Cabo Verde"</item>
+    <item msgid="1003307362164178007">"<ns1:g id="SEPARATOR">=</ns1:g>Reikiavik"</item>
+    <item msgid="6742010412815268657">"<ns1:g id="SEPARATOR">=</ns1:g>Stanley"</item>
+    <item msgid="5659389449738592757">"<ns1:g id="SEPARATOR">=</ns1:g>Adelaida"</item>
+    <item msgid="4567804576346784523">"<ns1:g id="SEPARATOR">=</ns1:g>Brisbane"</item>
+    <item msgid="8730590400362815585">"<ns1:g id="SEPARATOR">=</ns1:g>Canberra"</item>
+    <item msgid="6416990927714140153">"<ns1:g id="SEPARATOR">=</ns1:g>Darwin"</item>
+    <item msgid="3073969292696516135">"<ns1:g id="SEPARATOR">=</ns1:g>Melburne"</item>
+    <item msgid="1719286228375722176">"<ns1:g id="SEPARATOR">=</ns1:g>Nueva Gales del Sur"</item>
+    <item msgid="3663940748056976266">"<ns1:g id="SEPARATOR">=</ns1:g>Perth"</item>
+    <item msgid="3383881736858438153">"<ns1:g id="SEPARATOR">=</ns1:g>Queensland"</item>
+    <item msgid="971889339240879138">"<ns1:g id="SEPARATOR">=</ns1:g>Sídney"</item>
+    <item msgid="5542803438162180311">"<ns1:g id="SEPARATOR">=</ns1:g>Victoria"</item>
+    <item msgid="11828841481838883">"T<ns1:g id="SEPARATOR">=</ns1:g>Terranova y Labrador"</item>
+    <item msgid="1734331918410561807">"<ns1:g id="SEPARATOR">=</ns1:g>Saskatchewan"</item>
+    <item msgid="9184412695613864979">"I<ns1:g id="SEPARATOR">=</ns1:g>Isla de Pascua"</item>
+    <item msgid="1014282454239014527">"<ns1:g id="SEPARATOR">=</ns1:g>Ámsterdam"</item>
+    <item msgid="4928363054269791193">"<ns1:g id="SEPARATOR">=</ns1:g>Andorra"</item>
+    <item msgid="912290900213826368">"<ns1:g id="SEPARATOR">=</ns1:g>Atenas"</item>
+    <item msgid="6097000352459209495">"<ns1:g id="SEPARATOR">=</ns1:g>Belfast"</item>
+    <item msgid="3285885824311481790">"<ns1:g id="SEPARATOR">=</ns1:g>Belgrado"</item>
+    <item msgid="911055049821251982">"<ns1:g id="SEPARATOR">=</ns1:g>Berlín"</item>
+    <item msgid="9099244516556291111">"<ns1:g id="SEPARATOR">=</ns1:g>Bratislava"</item>
+    <item msgid="158977749726480076">"<ns1:g id="SEPARATOR">=</ns1:g>Bruselas"</item>
+    <item msgid="8875102297676173346">"<ns1:g id="SEPARATOR">=</ns1:g>Bucarest"</item>
+    <item msgid="804451569472542912">"<ns1:g id="SEPARATOR">=</ns1:g>Budapest"</item>
+    <item msgid="6827506774445509939">"<ns1:g id="SEPARATOR">=</ns1:g>Chisináu"</item>
+    <item msgid="487345893088732797">"<ns1:g id="SEPARATOR">=</ns1:g>Copenhage"</item>
+    <item msgid="7760953471297773537">"<ns1:g id="SEPARATOR">=</ns1:g>Dublín"</item>
+    <item msgid="323414429034825249">"<ns1:g id="SEPARATOR">=</ns1:g>Gibraltar"</item>
+    <item msgid="1785566206078328830">"<ns1:g id="SEPARATOR">=</ns1:g>Helsinki"</item>
+    <item msgid="5938185647271923359">"<ns1:g id="SEPARATOR">=</ns1:g>Isla de Man"</item>
+    <item msgid="5974864320735263245">"E<ns1:g id="SEPARATOR">=</ns1:g>Estambul"</item>
+    <item msgid="3567775364750772947">"<ns1:g id="SEPARATOR">=</ns1:g>Kiev"</item>
+    <item msgid="540344101798867007">"<ns1:g id="SEPARATOR">=</ns1:g>Lisboa"</item>
+    <item msgid="5091062403792923657">"<ns1:g id="SEPARATOR">=</ns1:g>Londres"</item>
+    <item msgid="7075006205000490364">"<ns1:g id="SEPARATOR">=</ns1:g>Luxemburgo"</item>
+    <item msgid="4901781246584739451">"<ns1:g id="SEPARATOR">=</ns1:g>Madrid"</item>
+    <item msgid="9047080834315777144">"<ns1:g id="SEPARATOR">=</ns1:g>Malta"</item>
+    <item msgid="8200456520732452034">"<ns1:g id="SEPARATOR">=</ns1:g>Minsk"</item>
+    <item msgid="5452744619736513383">"<ns1:g id="SEPARATOR">=</ns1:g>Mónaco"</item>
+    <item msgid="3513517408062322298">"<ns1:g id="SEPARATOR">=</ns1:g>Moscú"</item>
+    <item msgid="7917103295878081674">"<ns1:g id="SEPARATOR">=</ns1:g>Oslo"</item>
+    <item msgid="4245547231693746977">"<ns1:g id="SEPARATOR">=</ns1:g>París"</item>
+    <item msgid="3778652900196715557">"<ns1:g id="SEPARATOR">=</ns1:g>Praga"</item>
+    <item msgid="1827175423974383675">"<ns1:g id="SEPARATOR">=</ns1:g>Riga"</item>
+    <item msgid="2095130417232677930">"<ns1:g id="SEPARATOR">=</ns1:g>Roma"</item>
+    <item msgid="7631654618289353520">"<ns1:g id="SEPARATOR">=</ns1:g>San Marino"</item>
+    <item msgid="7219835179107610398">"<ns1:g id="SEPARATOR">=</ns1:g>Sarajevo"</item>
+    <item msgid="7199868165463282240">"<ns1:g id="SEPARATOR">=</ns1:g>Simferópol"</item>
+    <item msgid="2786395006682246794">"<ns1:g id="SEPARATOR">=</ns1:g>Skopie"</item>
+    <item msgid="4706927178872100023">"<ns1:g id="SEPARATOR">=</ns1:g>Sofía"</item>
+    <item msgid="1982417589953195308">"E<ns1:g id="SEPARATOR">=</ns1:g>Estocolmo"</item>
+    <item msgid="1596083919400921960">"<ns1:g id="SEPARATOR">=</ns1:g>Tallin"</item>
+    <item msgid="3079313598974879114">"<ns1:g id="SEPARATOR">=</ns1:g>Vaticano"</item>
+    <item msgid="6516636001856910888">"<ns1:g id="SEPARATOR">=</ns1:g>Viena"</item>
+    <item msgid="6377314532157945456">"<ns1:g id="SEPARATOR">=</ns1:g>Vilna"</item>
+    <item msgid="3427175235616698721">"V<ns1:g id="SEPARATOR">=</ns1:g>Varsovia"</item>
+    <item msgid="8404354243761332922">"<ns1:g id="SEPARATOR">=</ns1:g>Zagreb"</item>
+    <item msgid="1457280242717152391">"<ns1:g id="SEPARATOR">=</ns1:g>Zúrich"</item>
+    <item msgid="1065940089741359291">"<ns1:g id="SEPARATOR">=</ns1:g>Antananarivo"</item>
+    <item msgid="5176181880014090003">"<ns1:g id="SEPARATOR">=</ns1:g>Maldivas"</item>
+    <item msgid="8281854645557426433">"<ns1:g id="SEPARATOR">=</ns1:g>Mauricio"</item>
+    <item msgid="2686249517389816420">"<ns1:g id="SEPARATOR">=</ns1:g>Auckland"</item>
+    <item msgid="279925671775807392">"<ns1:g id="SEPARATOR">=</ns1:g>Fiyi"</item>
+    <item msgid="7971492669765264840">"<ns1:g id="SEPARATOR">=</ns1:g>Guaján"</item>
+    <item msgid="889371273355762733">"<ns1:g id="SEPARATOR">=</ns1:g>Honolulú"</item>
+    <item msgid="5516500578074269817">"<ns1:g id="SEPARATOR">=</ns1:g>Kiritimati"</item>
+    <item msgid="2740704911915073056">"<ns1:g id="SEPARATOR">=</ns1:g>Numea"</item>
+    <item msgid="8732832728949672807">"<ns1:g id="SEPARATOR">=</ns1:g>Samoa"</item>
+    <item msgid="6489500698846864993">"<ns1:g id="SEPARATOR">=</ns1:g>Tahití"</item>
+    <item msgid="3983121625709442324">"<ns1:g id="SEPARATOR">=</ns1:g>Antigua"</item>
+    <item msgid="2650510570709806322">"<ns1:g id="SEPARATOR">=</ns1:g>Austin"</item>
+    <item msgid="5257283506227357911">"<ns1:g id="SEPARATOR">=</ns1:g>Boston"</item>
+    <item msgid="6326368958641850267">"<ns1:g id="SEPARATOR">=</ns1:g>Calgary"</item>
+    <item msgid="8830116365016232583">"<ns1:g id="SEPARATOR">=</ns1:g>Columbus"</item>
+    <item msgid="6986556538341883811">"<ns1:g id="SEPARATOR">=</ns1:g>Dallas"</item>
+    <item msgid="836479352500251902">"<ns1:g id="SEPARATOR">=</ns1:g>Knoxville"</item>
+    <item msgid="8495291458467378851">"<ns1:g id="SEPARATOR">=</ns1:g>Memphis"</item>
+    <item msgid="2788807207554683122">"<ns1:g id="SEPARATOR">=</ns1:g>Miami"</item>
+    <item msgid="3984640407077208471">"<ns1:g id="SEPARATOR">=</ns1:g>Minneapolis"</item>
+    <item msgid="6997305266329324161">"<ns1:g id="SEPARATOR">=</ns1:g>Ottawa"</item>
+    <item msgid="5191741145278683016">"F<ns1:g id="SEPARATOR">=</ns1:g>Filadelfia"</item>
+    <item msgid="5898032730733441936">"<ns1:g id="SEPARATOR">=</ns1:g>Portland"</item>
+    <item msgid="9070160716002203069">"<ns1:g id="SEPARATOR">=</ns1:g>San Diego"</item>
+    <item msgid="1829944133410079040">"<ns1:g id="SEPARATOR">=</ns1:g>San Francisco"</item>
+    <item msgid="8407905318529692654">"<ns1:g id="SEPARATOR">=</ns1:g>Salt Lake City"</item>
+    <item msgid="3091392589347990898">"<ns1:g id="SEPARATOR">=</ns1:g>San José"</item>
+    <item msgid="7080627414383807284">"<ns1:g id="SEPARATOR">=</ns1:g>San Salvador"</item>
+    <item msgid="3430371213266252049">"<ns1:g id="SEPARATOR">=</ns1:g>Seattle"</item>
+    <item msgid="9177491393818757071">"C<ns1:g id="SEPARATOR">=</ns1:g>Ciudad de San Luis"</item>
+    <item msgid="6234359686676312837">"<ns1:g id="SEPARATOR">=</ns1:g>Washington D.C."</item>
+    <item msgid="4325057056005132331">"<ns1:g id="SEPARATOR">=</ns1:g>Houston"</item>
+    <item msgid="38148255938075867">"<ns1:g id="SEPARATOR">=</ns1:g>San Antonio"</item>
+    <item msgid="3601481860893666763">"<ns1:g id="SEPARATOR">=</ns1:g>Jacksonville"</item>
+    <item msgid="3987471437354665534">"<ns1:g id="SEPARATOR">=</ns1:g>Baltimore"</item>
+    <item msgid="3389674262267006887">"<ns1:g id="SEPARATOR">=</ns1:g>Nashville"</item>
+    <item msgid="7521690366448637309">"<ns1:g id="SEPARATOR">=</ns1:g>Milwaukee"</item>
+    <item msgid="2231069593975740859">"C<ns1:g id="SEPARATOR">=</ns1:g>Ciudad de Oklahoma"</item>
+    <item msgid="1970008262236914770">"<ns1:g id="SEPARATOR">=</ns1:g>Las Vegas"</item>
+    <item msgid="7113811028304266017">"<ns1:g id="SEPARATOR">=</ns1:g>Albuquerque"</item>
+    <item msgid="6481469458896644678">"<ns1:g id="SEPARATOR">=</ns1:g>Tucsón"</item>
+    <item msgid="5970857542995467466">"<ns1:g id="SEPARATOR">=</ns1:g>Sacramento"</item>
+    <item msgid="1999267306329214429">"<ns1:g id="SEPARATOR">=</ns1:g>Atlanta"</item>
+    <item msgid="8761847787537443648">"<ns1:g id="SEPARATOR">=</ns1:g>Cleveland"</item>
+    <item msgid="2987455647692324208">"<ns1:g id="SEPARATOR">=</ns1:g>Nueva Orleans"</item>
+    <item msgid="8104109426412705845">"<ns1:g id="SEPARATOR">=</ns1:g>Tampa"</item>
+    <item msgid="1410067233842240795">"<ns1:g id="SEPARATOR">=</ns1:g>Pittsburgh"</item>
+    <item msgid="3339955740367374442">"<ns1:g id="SEPARATOR">=</ns1:g>Cincinnati"</item>
+    <item msgid="6091407424772799978">"<ns1:g id="SEPARATOR">=</ns1:g>Mountain View"</item>
+    <item msgid="150299708499753555">"<ns1:g id="SEPARATOR">=</ns1:g>Reno"</item>
+    <item msgid="9155068631060038769">"<ns1:g id="SEPARATOR">=</ns1:g>Black Rock City"</item>
+    <item msgid="8498761319928979900">"<ns1:g id="SEPARATOR">=</ns1:g>Doha"</item>
+    <item msgid="5327010922199714808">"<ns1:g id="SEPARATOR">=</ns1:g>Pekín<ns1:g id="PHONETIC">:</ns1:g>"</item>
+    <item msgid="8605970953750147428">"B<ns1:g id="SEPARATOR">=</ns1:g>Bombay"</item>
+    <item msgid="6668274273067049125">"<ns1:g id="SEPARATOR">=</ns1:g>Delhi"</item>
+    <item msgid="7199039603593847813">"<ns1:g id="SEPARATOR">=</ns1:g>Osaka<ns1:g id="PHONETIC">:</ns1:g>"</item>
+    <item msgid="9011026093638055579">"<ns1:g id="SEPARATOR">=</ns1:g>Lahore"</item>
+    <item msgid="1448378291805481500">"<ns1:g id="SEPARATOR">=</ns1:g>Saná"</item>
+    <item msgid="5233119846682408301">"<ns1:g id="SEPARATOR">=</ns1:g>Barcelona"</item>
+    <item msgid="9146746514265554721">"<ns1:g id="SEPARATOR">=</ns1:g>Múnich"</item>
+    <item msgid="157866084892734979">"<ns1:g id="SEPARATOR">=</ns1:g>Milán"</item>
+    <item msgid="2787346322341414963">"<ns1:g id="SEPARATOR">=</ns1:g>Fráncfort"</item>
+    <item msgid="8407511504088696581">"<ns1:g id="SEPARATOR">=</ns1:g>Hanói"</item>
+    <item msgid="5184417944073499453">"<ns1:g id="SEPARATOR">=</ns1:g>Ankara"</item>
+    <item msgid="4028784954452197920">"<ns1:g id="SEPARATOR">=</ns1:g>Bangalore"</item>
+    <item msgid="190152483600862776">"<ns1:g id="SEPARATOR">=</ns1:g>Brasilia"</item>
+    <item msgid="8009516135735104388">"<ns1:g id="SEPARATOR">=</ns1:g>Ciudad del Cabo"</item>
+    <item msgid="6057191797622953016">"<ns1:g id="SEPARATOR">=</ns1:g>Islamabad"</item>
+    <item msgid="2702029416591153210">"<ns1:g id="SEPARATOR">=</ns1:g>Río de Janeiro"</item>
+    <item msgid="1753927312634708098">"<ns1:g id="SEPARATOR">=</ns1:g>Ann Arbor"</item>
+    <item msgid="4225721108475278979">"<ns1:g id="SEPARATOR">=</ns1:g>Boulder"</item>
+    <item msgid="6393177386755796069">"<ns1:g id="SEPARATOR">=</ns1:g>Cambridge"</item>
+    <item msgid="759409010285366934">"<ns1:g id="SEPARATOR">=</ns1:g>Kirkland"</item>
+    <item msgid="6308007059287569663">"<ns1:g id="SEPARATOR">=</ns1:g>Madison"</item>
+    <item msgid="2077617905582224600">"<ns1:g id="SEPARATOR">=</ns1:g>Cantón<ns1:g id="PHONETIC">:</ns1:g>"</item>
+    <item msgid="1185109514180068650">"<ns1:g id="SEPARATOR">=</ns1:g>Hyderabad"</item>
+    <item msgid="3032295682584784261">"<ns1:g id="SEPARATOR">=</ns1:g>Reston"</item>
+    <item msgid="7722837296297332268">"<ns1:g id="SEPARATOR">=</ns1:g>Belo Horizonte"</item>
+    <item msgid="3593516299122577780">"<ns1:g id="SEPARATOR">=</ns1:g>Santiago"</item>
+    <item msgid="2293331653589266583">"<ns1:g id="SEPARATOR">=</ns1:g>Monrovia"</item>
+    <item msgid="7899128359620301710">"<ns1:g id="SEPARATOR">=</ns1:g>Colombo"</item>
+    <item msgid="5294489752262543829">"<ns1:g id="SEPARATOR">=</ns1:g>Chihuahua"</item>
+    <item msgid="8066356061184206341">"E<ns1:g id="SEPARATOR">=</ns1:g>El Salvador"</item>
+    <item msgid="4806867741334453982">"<ns1:g id="SEPARATOR">=</ns1:g>Gurgaon"</item>
+    <item msgid="2585780177649876827">"<ns1:g id="SEPARATOR">=</ns1:g>Mánchester"</item>
+    <item msgid="234104953526248139">"<ns1:g id="SEPARATOR">=</ns1:g>Kiev"</item>
+    <item msgid="5245429461217350012">"<ns1:g id="SEPARATOR">=</ns1:g>San Petersburgo"</item>
+    <item msgid="6738531308006017215">"C<ns1:g id="SEPARATOR">=</ns1:g>Cracovia"</item>
+    <item msgid="8972702613339139467">"B<ns1:g id="SEPARATOR">=</ns1:g>Breslavia"</item>
+    <item msgid="187278924459096566">"<ns1:g id="SEPARATOR">=</ns1:g>Hamburgo"</item>
+    <item msgid="6173267862207394917">"<ns1:g id="SEPARATOR">=</ns1:g>Oulu"</item>
+    <item msgid="5639324478037405990">"<ns1:g id="SEPARATOR">=</ns1:g>Haifa"</item>
+    <item msgid="3157180661352354058">"<ns1:g id="SEPARATOR">=</ns1:g>San Juan"</item>
+    <item msgid="6995939579417282715">"<ns1:g id="SEPARATOR">=</ns1:g>Tegucigalpa"</item>
+    <item msgid="1641840677391275004">"<ns1:g id="SEPARATOR">=</ns1:g>Paramaribo"</item>
+    <item msgid="7317049454800260290">"<ns1:g id="SEPARATOR">=</ns1:g>Quito"</item>
+    <item msgid="4524380876433343244">"<ns1:g id="SEPARATOR">=</ns1:g>Liubliana"</item>
+  </string-array>
+    <string-array name="clock_style_entries">
+    <item msgid="917900462224167608">"Analógico"</item>
+    <item msgid="8483930821046925592">"Digital"</item>
+  </string-array>
+    <string-array name="sw_share_strings">
+    <item msgid="842841032273927988">"Eres el rey de la velocidad."</item>
+    <item msgid="6332879039890727169">"Disfruta de los frutos de tu trabajo."</item>
+    <item msgid="815382761274660130">"Los androides se caracterizan por ser rápidos, pero no tanto como tú."</item>
+    <item msgid="7916250650982813737">"¡Uf!"</item>
+    <item msgid="6836603904515182333">"L33t veces"</item>
+    <item msgid="7508085100680861631">"Una velocidad prodigiosa"</item>
+    <item msgid="5961245252909589573">"Vamos a saltar en el tiempo otra vez."</item>
+    <item msgid="5211891900854545940">"Solo un salto a la izquierda"</item>
+    <item msgid="9071353477103826053">"Tienes muchas cosas que hacer en poco tiempo."</item>
+    <item msgid="3785193933691117181">"Velocidad fotónica"</item>
+  </string-array>
+    <string-array name="timer_notifications">
+    <item msgid="7760558912503484257">"Queda menos de 1 minuto"</item>
+    <item msgid="83197792732433351">"Quedan <ns1:g id="HOURS">%1$s</ns1:g>"</item>
+    <item msgid="8919698220200894252">"Quedan <ns1:g id="MINUTES">%2$s</ns1:g>"</item>
+    <item msgid="8458069283817013813">"Quedan <ns1:g id="HOURS">%1$s</ns1:g> y <ns1:g id="MINUTES">%2$s</ns1:g>"</item>
+  </string-array>
+    <string-array name="timezone_labels">
+    <item msgid="5495601234086197399">"Islas Marshall"</item>
+    <item msgid="4196408495909011020">"Islas Midway"</item>
+    <item msgid="1414384194857730006">"Hawái"</item>
+    <item msgid="2687091371581931926">"Alaska"</item>
+    <item msgid="1922100269679049660">"Hora del Pacífico"</item>
+    <item msgid="7156402158716866161">"Tijuana"</item>
+    <item msgid="1144117502254612241">"Arizona"</item>
+    <item msgid="101284182011722637">"Chihuahua"</item>
+    <item msgid="689121094232986897">"Hora de las Montañas Rocosas"</item>
+    <item msgid="5445331923942302756">"Centroamérica"</item>
+    <item msgid="2749806434052452351">"Hora central"</item>
+    <item msgid="3997138870229703753">"Ciudad de México"</item>
+    <item msgid="5425567073027744888">"Saskatchewan"</item>
+    <item msgid="2877342865396629368">"Bogotá"</item>
+    <item msgid="568682398893899670">"Hora del Este"</item>
+    <item msgid="668135984541863866">"Venezuela"</item>
+    <item msgid="3737474220861486223">"Hora del Atlántico (Barbados)"</item>
+    <item msgid="6279116051273436870">"Hora del Atlántico (Canadá)"</item>
+    <item msgid="8513382867172014244">"Manaos"</item>
+    <item msgid="7776299003105932407">"Santiago"</item>
+    <item msgid="8636989494746218677">"Terranova"</item>
+    <item msgid="4402541016410147505">"Brasilia"</item>
+    <item msgid="2251184440733164084">"Buenos Aires"</item>
+    <item msgid="6202926618569004969">"Groenlandia"</item>
+    <item msgid="2355275037115290628">"Montevideo"</item>
+    <item msgid="1377549694711708945">"Atlántico Medio"</item>
+    <item msgid="3457671272126347981">"Azores"</item>
+    <item msgid="3659315141063710840">"Islas de Cabo Verde"</item>
+    <item msgid="1260941741802367635">"Casablanca"</item>
+    <item msgid="8275203689687954762">"Londres, Dublín"</item>
+    <item msgid="5970179539479320905">"Ámsterdam, Berlín"</item>
+    <item msgid="5396319478750517962">"Belgrado"</item>
+    <item msgid="8688787475056663004">"Bruselas"</item>
+    <item msgid="3415827874921681622">"Sarajevo"</item>
+    <item msgid="402008965928320066">"Windhoek"</item>
+    <item msgid="6436942724959275569">"Hora África Occidental"</item>
+    <item msgid="954536568417204026">"Amán, Jordania"</item>
+    <item msgid="8932745482008902551">"Atenas, Estambul"</item>
+    <item msgid="320025725949024510">"Beirut, Líbano"</item>
+    <item msgid="7242083112551905970">"El Cairo"</item>
+    <item msgid="7241520146011450419">"Helsinki"</item>
+    <item msgid="2717065017510546526">"Jerusalén"</item>
+    <item msgid="8698556287741466553">"Minsk"</item>
+    <item msgid="1797598357342084506">"Harare"</item>
+    <item msgid="5169119919905066998">"Bagdad"</item>
+    <item msgid="2615788116201065182">"Moscú"</item>
+    <item msgid="9084354867885584646">"Kuwait"</item>
+    <item msgid="1351570519986178268">"Nairobi"</item>
+    <item msgid="7094569580635877460">"Teherán"</item>
+    <item msgid="3953138772617909704">"Bakú"</item>
+    <item msgid="2868893113598800752">"Tiflis"</item>
+    <item msgid="7088581865802476373">"Ereván"</item>
+    <item msgid="1941122257623887992">"Dubái"</item>
+    <item msgid="9194797225058249720">"Kabul"</item>
+    <item msgid="6486569254364577332">"Islamabad, Karachi"</item>
+    <item msgid="5487724896895412089">"Oral"</item>
+    <item msgid="364906869710826982">"Ekaterimburgo"</item>
+    <item msgid="2106505051751383358">"Calcuta"</item>
+    <item msgid="6851586621581501447">"Sri Lanka"</item>
+    <item msgid="800438544128213134">"Katmandú"</item>
+    <item msgid="6173621471007643021">"Astaná"</item>
+    <item msgid="8645125891971581128">"Rangún"</item>
+    <item msgid="2886407505119737794">"Krasnoyarsk"</item>
+    <item msgid="3408222398188107090">"Bangkok"</item>
+    <item msgid="4441612937172851228">"Pekín"</item>
+    <item msgid="4936715789028996930">"Hong Kong"</item>
+    <item msgid="4261031143777385525">"Irkutsk"</item>
+    <item msgid="3538060959338191835">"Kuala Lumpur"</item>
+    <item msgid="1438847562643099201">"Perth"</item>
+    <item msgid="3063913827688244383">"Taipei"</item>
+    <item msgid="3502757135046564209">"Seúl"</item>
+    <item msgid="6107588684519111669">"Tokio, Osaka"</item>
+    <item msgid="4350769099755608471">"Yakutsk"</item>
+    <item msgid="2422707004533526462">"Adelaida"</item>
+    <item msgid="1292192084554134339">"Darwin"</item>
+    <item msgid="1320883699470001716">"Brisbane"</item>
+    <item msgid="5137198806146386527">"Hobart"</item>
+    <item msgid="5920063686933941174">"Sídney, Canberra"</item>
+    <item msgid="615906039696009425">"Vladivostok"</item>
+    <item msgid="7738680449356275374">"Guam"</item>
+    <item msgid="2882915026380778227">"Magadán"</item>
+    <item msgid="8255615641810148152">"Auckland"</item>
+    <item msgid="3027153773466391728">"Fiyi"</item>
+    <item msgid="5911600083231840181">"Tonga"</item>
+    <item msgid="5176858645450908751">"Yakarta"</item>
+  </string-array>
+    <string-array name="volume_button_setting_entries">
+    <item msgid="7972756698723318690">"Posponer"</item>
+    <item msgid="3450979320164769576">"Ignorar"</item>
+    <item msgid="6302517608411378024">"No hacer nada"</item>
+  </string-array>
+    <plurals name="Nhours_description">
+    <item msgid="371227238759147245" quantity="one">"1 hora"</item>
+    <item msgid="7018184076091344797" quantity="other">"<ns1:g id="NUMBER">%d</ns1:g> horas"</item>
+  </plurals>
+    <plurals name="Nminutes_description">
+    <item msgid="1001391305885322059" quantity="one">"1 minuto"</item>
+    <item msgid="6948360065351547776" quantity="other">"<ns1:g id="NUMBER">%d</ns1:g> minutos"</item>
+  </plurals>
+    <plurals name="Nseconds_description">
+    <item msgid="6589853086641485725" quantity="one">"1 segundo"</item>
+    <item msgid="7583230315175387547" quantity="other">"<ns1:g id="NUMBER">%d</ns1:g> segundos"</item>
+  </plurals>
+    <plurals name="alarm_alert_snooze_duration">
+    <item msgid="9092917312369131464" quantity="one">"1 minuto"</item>
+    <item msgid="6731274475422132958" quantity="other">"<ns1:g id="NUMBER">%d</ns1:g> min"</item>
+  </plurals>
+    <plurals name="alarm_alert_snooze_set">
+    <item msgid="7884410398338611019" quantity="one">"Pospuesta durante 1 minuto."</item>
+    <item msgid="7377899473014259727" quantity="other">"Pospuesta durante <ns1:g id="MINUTES">%d</ns1:g> minutos."</item>
+  </plurals>
+    <plurals name="alarm_delete_confirmation">
+    <item msgid="111940612131906802" quantity="one">"¿Eliminar alarma seleccionada?"</item>
+    <item msgid="6918176478191272189" quantity="other">"¿Eliminar alarmas seleccionadas?"</item>
+  </plurals>
+    <plurals name="snooze_duration">
+    <item msgid="7406963706727564418" quantity="one">"1 minuto"</item>
+    <item msgid="568504136093419703" quantity="other">"<ns1:g id="NUMBER">%d</ns1:g> minutos"</item>
+  </plurals>
+    <plurals name="snooze_picker_label">
+    <item msgid="3783171637798575068" quantity="one">"minuto"</item>
+    <item msgid="1304056759541595077" quantity="other">"minutos"</item>
+  </plurals>
+    <plurals name="timers_num">
+    <item msgid="6764708652976799977" quantity="one">"Un minuto"</item>
+    <item msgid="3799129667336330616" quantity="other">"<ns1:g id="NUMBER">%d</ns1:g> temporizadores"</item>
+  </plurals>
+    <string msgid="5976616107390962899" name="add_alarm">"Añadir alarma"</string>
+    <string name="alarmType">Alarma</string>
+    <string name="alarm_action_category">Acciones para las alarmas de la pantalla completa</string>
+    <string name="alarm_action_header"><b>Nota</b>: Estas opciones sólo son válidas para las notificaciones de alarma en pantalla completa</string>
+    <string name="alarm_action_wireless_header_title">Nota: Para este dispositivo, las acciones de girar y agitar estarán desactivadas durante la carga inalámbrica</string>
+    <string msgid="3272183025444682500" name="alarm_alert_dismiss_now_text">"Ignorar ahora"</string>
+    <string msgid="4942914605480888820" name="alarm_alert_dismiss_text">"Descartar"</string>
+    <string msgid="2459925305288819812" name="alarm_alert_off_action_text">"No"</string>
+    <string msgid="4472073417593915002" name="alarm_alert_off_text">"Alarma desactivada"</string>
+    <string name="alarm_alert_prealarm_dismiss_title">Pre-alarma descartada</string>
+    <string msgid="5723945586913705445" name="alarm_alert_predismiss_title">"Próxima alarma"</string>
+    <string msgid="1774416052207651584" name="alarm_alert_snooze_text">"Posponer"</string>
+    <string msgid="6958013659168344550" name="alarm_alert_snooze_until">"Repetir a las <ns1:g id="TIME">%s</ns1:g>"</string>
+    <string msgid="7064642998528766113" name="alarm_alert_snoozed_text">"Pospuesta"</string>
+    <string msgid="6790780716498252583" name="alarm_alert_wake_up">"¡Despierta!"</string>
+    <string msgid="740283647046258651" name="alarm_button_description">"Alarmas"</string>
+    <string msgid="5017075127290219443" name="alarm_deleted">"Alarma eliminada"</string>
+    <string name="alarm_increasing_volume">Volumen ascendente</string>
+    <string msgid="2147506334302260256" name="alarm_klaxon_service_desc">"Reproducción de alarmas definidas en Reloj"</string>
+    <string msgid="7589940465292950600" name="alarm_list_title">"Alarmas"</string>
+    <string msgid="6585658367289194023" name="alarm_missed_text">"<ns1:g id="ALARM_TIME">%s</ns1:g> - <ns1:g id="ALARM_LABEL">%s</ns1:g>"</string>
+    <string msgid="3828345099754063392" name="alarm_missed_title">"Alarma perdida"</string>
+    <string msgid="5404083762646377829" name="alarm_notify_snooze_label">"<ns1:g id="LABEL">%s</ns1:g> (pospuesta)"</string>
+    <string msgid="4819324081410990368" name="alarm_notify_snooze_text">"La alarma sonará a las <ns1:g id="TIME">%s</ns1:g>. Toca para cancelar."</string>
+    <string msgid="4891014685945904766" name="alarm_notify_text">"Posponer o ignorar alarma"</string>
+    <string msgid="7242985466344233206" name="alarm_repeat">"Repetir"</string>
+    <string name="alarm_ringtone_title">Sonido:</string>
+    <string msgid="2947147071388290814" name="alarm_settings">"Alarmas"</string>
+    <string name="alarm_test">Reproducir alarma</string>
+    <string name="alarm_test_button">Prueba</string>
+    <string name="alarm_test_dialog_content">Pulse cancelar para detener</string>
+    <string name="alarm_test_dialog_title">Reproducir alarma</string>
+    <string name="alarm_title">Alarma</string>
+    <string msgid="7873594221106531654" name="alarm_today">"Hoy"</string>
+    <string msgid="131356848787643420" name="alarm_tomorrow">"Mañana"</string>
+    <string name="alarm_type_select_title">Origen:</string>
+    <string msgid="5710042601177655254" name="alarm_undo">"Deshacer"</string>
+    <string name="alarm_uri_unkown"> (eliminado)</string>
+    <string msgid="3476686921490362230" name="alarm_vibrate">"Vibrar"</string>
+    <string name="alarm_volume_enable_title">Volumen de alarma del sistema</string>
+    <string msgid="8506245173912428522" name="alarm_volume_title">"Volumen de la alarma"</string>
+    <string msgid="1075308195332888260" name="alarms_selected">"Seleccionadas: <ns1:g id="ALARMS">%d</ns1:g>"</string>
+    <string msgid="6506982899651975645" name="alert">"Tono de alarma"</string>
+    <string name="all_cities_label">Añadir </string>
+    <string msgid="278532320068394600" name="all_timers_stopped_notif">"Toca para ver tus temporizadores"</string>
+    <string msgid="1670505720837152766" name="analog_gadget">"Reloj analógico"</string>
+    <string msgid="6674495003718166674" name="app_label">"Reloj"</string>
+    <string name="audio_stream_alam">Corriente de alarma</string>
+    <string name="audio_stream_music">Corriente de música</string>
+    <string name="audio_stream_title">Flujo de audio para sonidos de alarma local</string>
+    <string msgid="4821982647348750809" name="auto_silence_never">"Nunca"</string>
+    <string msgid="7028508740659733028" name="auto_silence_summary">"<ns1:g id="MINUTES">%d</ns1:g> minutos"</string>
+    <string msgid="2012754009554434544" name="auto_silence_title">"Silenciar después de"</string>
+    <string msgid="6274174710735449252" name="automatic_home_clock">"Reloj de tu ciudad automático"</string>
+    <string msgid="6020476321040807273" name="automatic_home_clock_summary">"Cuando viajes a una zona con una hora diferente, añadir un reloj para la hora de tu ciudad"</string>
+    <string msgid="5251483622085889693" name="battery_charging_level">"<ns1:g id="NUMBER">%d</ns1:g><ns1:g id="PERCENT">%%</ns1:g>"</string>
+    <string name="browse_activity_title">Ver</string>
+    <string msgid="3907838219512538763" name="button_alarms">"Añadir alarma"</string>
+    <string msgid="4555761857494501363" name="button_cities">"Ciudades"</string>
+    <string msgid="6050484561842120282" name="button_menu">"Más opciones"</string>
+    <string name="choose_folder">Elegir</string>
+    <string msgid="8552462751129256730" name="cities_activity_title">"Ciudades"</string>
+    <string name="cities_add_already_exists">La ciudad ya existe en la base de datos</string>
+    <string name="cities_add_city_city">Cuidad:</string>
+    <string name="cities_add_city_failed">No se puede crear la ciudad</string>
+    <string name="cities_add_city_gps_cd">Toque para localizar su ciudad actual</string>
+    <string name="cities_add_city_timezone">Zona horaria:</string>
+    <string name="cities_add_city_title">Añadir ciudad</string>
+    <string name="cities_add_gps_no_results">Consulta de GPS no devuelve ningún resultado de la ubicación</string>
+    <string name="cities_add_gps_not_available">GPS no disponible</string>
+    <string name="cities_add_loading">Cargando\u2026</string>
+    <string name="cities_add_searching">Buscando\u2026</string>
+    <string name="cities_delete_city_failed">No se puede eliminar la ciudad</string>
+    <string name="cities_delete_city_msg">¿Confirma que desea eliminar <ns1:g id="city">%s </ns1:g>?</string>
+    <string name="cities_delete_city_title">Eliminar ciudad</string>
+    <string msgid="1783441538785676299" name="city_delete_confirmation">"¿Eliminar esta ciudad?"</string>
+    <string name="clock_color_title">Color</string>
+    <string name="clock_font_title">Letra</string>
+    <string msgid="2656876819515011590" name="clock_instructions">"Seleccionar un reloj"</string>
+    <string msgid="8317286807280600391" name="clock_settings">"Reloj"</string>
+    <string name="clock_shadow_title">Sombra</string>
+    <string msgid="2265011060429742344" name="clock_style">"Estilo"</string>
+    <string name="clone_alarm">Copiar alarma</string>
+    <string msgid="3561772046433483980" name="collapse_alarm">"Contraer alarma"</string>
+    <string name="color_theme_black">Negro</string>
+    <string name="color_theme_dark">Oscuro</string>
+    <string name="color_theme_light">Claro</string>
+    <string name="color_theme_title">Tema</string>
+    <string msgid="2194676418924016327" name="control_set_alarm">"Establecer alarma"</string>
+    <string name="custom_gadget">Reloj digital</string>
+    <string msgid="7984755014526510295" name="day">"1 día"</string>
+    <string msgid="971998564991636532" name="day_concat">", "</string>
+    <string msgid="2070509222727852210" name="days">"<ns1:g id="DAYS">%s</ns1:g> días"</string>
+    <string msgid="5590025289805630372" name="default_label">"Alarma"</string>
+    <string name="default_page_title">Página de inicio predeterminada</string>
+    <string msgid="4549726190682964245" name="default_ringtone_setting_title">"Establecer tono predeterminado"</string>
+    <string name="default_week_start">Configuración regional por defecto</string>
+    <string msgid="5732434972457000541" name="delete">"Eliminar"</string>
+    <string msgid="3457780990646206817" name="delete_alarm">"Eliminar alarma"</string>
+    <string msgid="6578572637340860840" name="delete_alarm_confirm">"¿Eliminar esta alarma?"</string>
+    <string msgid="1220848140260509437" name="deleted_message">"Eliminado"</string>
+    <string msgid="7448141043674998679" name="description_direction_left">"Deslizar hacia la izquierda para posponer"</string>
+    <string msgid="5709209043267548985" name="description_direction_right">"Deslizar hacia la derecha para ignorar"</string>
+    <string msgid="4207371097361657274" name="desk_clock_button_description">"Reloj"</string>
+    <string msgid="2326954556720571358" name="digital_gadget">"Reloj digital"</string>
+    <string msgid="5889378670229554109" name="disable_alarm">"Desactivar alarma"</string>
+    <string msgid="6509722361933858451" name="done">"Listo"</string>
+    <string name="editor_contentshint">Ingrese el texto aquí</string>
+    <string name="editor_save">Guardar los cambios</string>
+    <string msgid="1834599140632142536" name="enable_alarm">"Activar alarma"</string>
+    <string name="entry_fifteen_minute">15 minutos</string>
+    <string name="entry_fifteen_secs">15 segundos</string>
+    <string name="entry_five_count">5 veces</string>
+    <string name="entry_five_minute">5 minutos</string>
+    <string name="entry_five_secs">5 segundos</string>
+    <string name="entry_one_count">1 vez</string>
+    <string name="entry_one_minute">1 minuto</string>
+    <string name="entry_sixty_minute">1 hora</string>
+    <string name="entry_ten_count">10 veces</string>
+    <string name="entry_ten_minute">10 minutos</string>
+    <string name="entry_ten_secs">10 segundos</string>
+    <string name="entry_thirty_minute">30 minutos</string>
+    <string name="entry_thirty_secs">30 segundos</string>
+    <string name="entry_three_count">3 veces</string>
+    <string name="entry_three_minute">3 minutos</string>
+    <string name="entry_zero_count">Ilimitado</string>
+    <string msgid="4100909974923444602" name="every_day">"Todos los días"</string>
+    <string msgid="7392616528943305020" name="expand_alarm">"Expandir alarma"</string>
+    <string name="fallback_ringtone">Por defecto</string>
+    <string name="first_alarm_created_hint">Toca el tiempo de la alarma para cambiar. Pulsalo prolongadamente para editar la hora de la alarma.</string>
+    <string name="flip_action_dialog_title">Acción al voltear</string>
+    <string name="flip_action_title">Acción al voltear</string>
+    <string name="folderType">Carpeta de música</string>
+    <string name="folder_dialog_title">Seleccionar carpeta</string>
+    <string name="folders_scanning">Buscando</string>
+    <string name="font_sample_text">11:57</string>
+    <string name="fullscreen_alarm_settings">Alarmas de la pantalla completa</string>
+    <string name="fullscreen_alarm_summary">Siempre usar alarmas en pantalla completa en lugar de notificaciones</string>
+    <string name="fullscreen_alarm_title">Alarmas de la pantalla completa</string>
+    <string msgid="1151743663255257668" name="gallery_button_description">"Galería"</string>
+    <string name="global_settings">Global</string>
+    <string msgid="7786263119482654015" name="help">"ayuda"</string>
+    <string msgid="3217727306480505694" name="hide_clock">"Ocultar reloj"</string>
+    <string msgid="3383859096809056157" name="home_button_description">"Launcher"</string>
+    <string msgid="4436139365695453870" name="home_label">"Casa"</string>
+    <string msgid="9199730676287974501" name="home_time_zone">"Zona horaria local"</string>
+    <string msgid="807894493443834624" name="home_time_zone_title">"Zona horaria local"</string>
+    <string msgid="2546819039651509323" name="hour">"1 hora"</string>
+    <string msgid="2071487018566991613" name="hours">"<ns1:g id="HOURS">%s</ns1:g> horas"</string>
+    <string msgid="3393478155635368097" name="hours_label">"h"</string>
+    <string msgid="8652842524970971830" name="hours_label_description">"horas"</string>
+    <string name="keep_screen_on_summary">La pantalla no se apagará cuando la alarma esté activa</string>
+    <string name="keep_screen_on_title">Mantener pantalla encendida</string>
+    <string msgid="162189613902857319" name="label">"Nombre de la alarma"</string>
+    <string msgid="8736179296142915727" name="label_description">"Nombre"</string>
+    <string msgid="4699506713571930740" name="label_unlabeled"/>
+    <string msgid="6523322777415268044" name="loading_ringtone">"Cargando tono…"</string>
+    <string name="local_query_alarm">Alarmas</string>
+    <string name="local_query_alarm_ringtones">Alarmas y tonos de llamada</string>
+    <string name="local_query_album">Álbumes</string>
+    <string name="local_query_artist">Artistas</string>
+    <string name="local_query_folder">Carpeta</string>
+    <string name="local_query_hint">Buscar</string>
+    <string name="local_query_playlist">Listas de reproducción</string>
+    <string name="local_query_recent">Reciente</string>
+    <string name="local_query_stream">Flujos</string>
+    <string name="local_query_track">Canciones</string>
+    <string name="make_screen_dark_summary">Si la pantalla permanece apagada cuando la alarma está activa</string>
+    <string name="make_screen_dark_title">Pantalla oscura</string>
+    <string name="mdtp_date_v1_monthyear">MMMM \'de\' yyyy</string>
+    <string msgid="3968620852217927702" name="mdtp_day_picker_description">"Cuadrícula mensual de días"</string>
+    <string msgid="6908431551612331381" name="mdtp_deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> eliminado"</string>
+    <string msgid="7586639618712934060" name="mdtp_hour_picker_description">"Control deslizante circular de horas"</string>
+    <string msgid="2674929164900463786" name="mdtp_item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> seleccionado"</string>
+    <string msgid="6024811202872705251" name="mdtp_minute_picker_description">"Control deslizante circular de minutos"</string>
+    <string msgid="3973338219107019769" name="mdtp_select_day">"Seleccionar mes y día"</string>
+    <string msgid="7651068754188418859" name="mdtp_select_hours">"Seleccionar horas"</string>
+    <string msgid="8327182090226828481" name="mdtp_select_minutes">"Seleccionar minutos"</string>
+    <string msgid="2603330600102539372" name="mdtp_select_year">"Seleccionar año"</string>
+    <string msgid="6963340404644587098" name="mdtp_year_picker_description">"Lista de años"</string>
+    <string name="mediaType">Archivo de música</string>
+    <string name="media_start">Enviar inicio de audio</string>
+    <string msgid="4772010125376647519" name="menu_alarm">"Alarma"</string>
+    <string msgid="5612760670606829805" name="menu_clock">"Reloj"</string>
+    <string msgid="3241995064554071588" name="menu_desk_clock">"Reloj de escritorio"</string>
+    <string msgid="7204602994918829751" name="menu_edit_alarm">"Modificar alarma"</string>
+    <string name="menu_item_add">Añadir </string>
+    <string msgid="4570953476186849841" name="menu_item_help">"Ayuda"</string>
+    <string msgid="3486930302245398975" name="menu_item_night_mode">"Modo nocturno"</string>
+    <string msgid="1413723516369078665" name="menu_item_settings">"Ajustes"</string>
+    <string msgid="3120860422682721706" name="menu_item_sort_by_gmt_offset">"Ordenar por hora"</string>
+    <string msgid="1762931290495104106" name="menu_item_sort_by_name">"Ordenar por nombre"</string>
+    <string name="menu_item_spotify">Spotify</string>
+    <string name="menu_item_version">Información de versión</string>
+    <string msgid="3396117705293574701" name="menu_stopwatch">"Cronómetro"</string>
+    <string msgid="6459070074762877114" name="menu_timer">"Temporizador"</string>
+    <string msgid="2486157997434653710" name="minute">"1 minuto"</string>
+    <string msgid="6115838729146292526" name="minutes">"<ns1:g id="MINUTES">%s</ns1:g> minutos"</string>
+    <string msgid="3568098128251438588" name="minutes_label">"m"</string>
+    <string msgid="965686733490357796" name="minutes_label_description">"minutos"</string>
+    <string msgid="5295473204045979335" name="missed_alarm_has_been_deleted">"Se han eliminado las alarmas perdidas"</string>
+    <string name="musicType">Música</string>
+    <string msgid="1626593420810117999" name="music_button_description">"Música"</string>
+    <string msgid="54104287800571769" name="never">"Nunca"</string>
+    <string msgid="2650244835760747046" name="next_alarm_description">"Próxima alarma: <ns1:g id="ALARM_TIME">%s</ns1:g>"</string>
+    <string msgid="6136454740115613653" name="next_timer_notif">"Próximo temporizador: <ns1:g id="TIME_REMAINING">%s</ns1:g>"</string>
+    <string msgid="1017350187324162631" name="night_mode_summary">"Pantalla muy atenuada (para espacios oscuros)"</string>
+    <string msgid="5983813889469616299" name="night_mode_title">"Modo nocturno"</string>
+    <string msgid="990894208217576381" name="nightmode_button_description">"Atenuar"</string>
+    <string name="no_alarm_sound_hint">No hay tono de alarma predeterminado en la configuración del sistema.</string>
+    <string msgid="6429431324842022917" name="no_alarms">"No hay alarmas"</string>
+    <string msgid="4887558279496044764" name="no_alarms_set">"No hay alarmas"</string>
+    <string name="no_spotify_message">No hay soporte de Spotify disponible. \nPor favor selecciona un tipo de alarma diferentes.</string>
+    <string msgid="2889840988069436254" name="no_upcoming_alarms">"NO HAY ALARMAS PRÓXIMAMENTE"</string>
+    <string name="notificationType">Notificación</string>
+    <string name="notification_settings">Notificaciones</string>
+    <string name="offline_notif_message">Por favor cambia los ajustes de tu sistema</string>
+    <string name="offline_notif_title">Dispositivo fuera de línea</string>
+    <string name="pick_media">Seleccionar audio</string>
+    <string name="play_error_title">Error al reproducir la alarma</string>
+    <string name="playlistType">Lista de Reproducción</string>
+    <string name="playlist_file_name">Nombre</string>
+    <string name="pre_alarm_dismiss_all_summary">Descartar la pre-alarma activa también descartará la alarma principal</string>
+    <string name="pre_alarm_dismiss_all_title">Descartar todas</string>
+    <string name="pre_alarm_notification_show_summary">Mostrar notificaciones de alarmas próximas</string>
+    <string name="pre_alarm_notification_show_title">Notificaciones de alarma próxima</string>
+    <string name="pre_alarm_notification_time_title">Desplazamiento de la notificación de alarma</string>
+    <string name="prealarm_default_label">Pre-alarma</string>
+    <string name="prealarm_time_select">Tiempo de pre-alarma:</string>
+    <string name="prealarm_title">Pre-alarma</string>
+    <string name="randomMusicType">Música al azar</string>
+    <string name="random_mode_enable_title">Mezclar</string>
+    <string msgid="9100911171235162926" name="revert">"Revertir"</string>
+    <string msgid="9110746249688559579" name="ringtone">"Tono de llamada"</string>
+    <string name="ringtoneType">Tono de llamada</string>
+    <string msgid="7580922112921069925" name="ringtone_description">"Tono de llamada"</string>
+    <string name="ringtone_disabled">Desactivado</string>
+    <string name="ringtone_unknown">Tono desconocido</string>
+    <string msgid="7013450738357352801" name="screensaver_settings">"Ajustes del salvapantallas"</string>
+    <string msgid="124655952824003246" name="seconds_label">"s"</string>
+    <string msgid="3821620053141299692" name="seconds_label_description">"segundos"</string>
+    <string msgid="3607479399424246605" name="selected_cities_label">"Ciudades seleccionadas"</string>
+    <string msgid="9148359866152726808" name="set_alarm">"Establecer alarma"</string>
+    <string msgid="5849739030579520686" name="settings">"Ajustes"</string>
+    <string name="shake_action_dialog_title">Acción al agitar</string>
+    <string name="shake_action_title">Acción al agitar</string>
+    <string name="shortcut_start_timer">Temporizador</string>
+    <string name="shortcut_stopwatch">Cronómetro</string>
+    <string name="show_alarm_title">Mostrar la siguiente alarma</string>
+    <string name="show_background_image_title">Mostrar imagen de fondo</string>
+    <string msgid="8358759982675616915" name="show_clock">"Mostrar reloj"</string>
+    <string name="show_date_title">Mostrar fecha</string>
+    <string name="show_world_clock_title">Mostrar elementos del reloj mundial</string>
+    <string msgid="8605302849408279221" name="silent_alarm_summary">"Silencio"</string>
+    <string msgid="2077577763821006919" name="slash">"/"</string>
+    <string name="snooze_count_title">Tiempos de repetición permitidos</string>
+    <string msgid="1097309861110780483" name="snooze_duration_title">"Repetir alarma después de"</string>
+    <string msgid="8416624630388063996" name="stopwatch_service_desc">"Servicio de cronómetro para ejecutar la notificación"</string>
+    <string name="storage_title">Almacenamiento:</string>
+    <string msgid="6992264696039004233" name="sw_lap_button">"Añadir vuelta"</string>
+    <string msgid="3535420316052647126" name="sw_notification_lap_number">"Fase <ns1:g id="NUMBER">%d</ns1:g>"</string>
+    <string msgid="6616804728322906117" name="sw_reset_button">"Borrar"</string>
+    <string msgid="2569360966002022248" name="sw_resume_button">"Reanudar"</string>
+    <string msgid="4478648110382859382" name="sw_share_button">"Compartir"</string>
+    <string msgid="614390674795945007" name="sw_share_laps">"Duración de las vueltas:"</string>
+    <string msgid="7703563468204234405" name="sw_share_main">"Hora: <ns1:g id="TIME">%s</ns1:g>"</string>
+    <string msgid="8373422516681242270" name="sw_start_button">"Iniciar"</string>
+    <string msgid="8322958613123274451" name="sw_stop_button">"Detener"</string>
+    <string msgid="783124901663086172" name="swn_stopped">"Detenido"</string>
+    <string name="take_persistent_grant_uri_permission_failed_msg">No se ha podido conceder permiso persistente para tono de llamada</string>
+    <string name="tile_create_alarm">Alarma</string>
+    <string msgid="8067216534232296518" name="time">"Hora"</string>
+    <string msgid="6001006474735281911" name="time_picker_00_label">":00"</string>
+    <string msgid="1027250857384838129" name="time_picker_30_label">":30"</string>
+    <string msgid="6754113715199751083" name="time_picker_ampm_label">"--"</string>
+    <string msgid="7437106489606013077" name="time_picker_cancel">"Cancelar"</string>
+    <string msgid="331153175471468051" name="time_picker_set">"Aceptar"</string>
+    <string msgid="7484926510054777041" name="time_picker_time_seperator">":"</string>
+    <string msgid="862733633862574752" name="timer_add_timer">"Añadir temporizador"</string>
+    <string name="timer_alarm_custom_title">Tono de llamada del temporizador personalizado</string>
+    <string name="timer_alarm_title">Tono</string>
+    <string msgid="3572868404230815644" name="timer_cancel">"Cancelar"</string>
+    <string msgid="8699122001991909302" name="timer_delete">"Eliminar"</string>
+    <string msgid="2815524107015816453" name="timer_delete_confirmation">"¿Eliminar este temporizador?"</string>
+    <string msgid="2375990511982914051" name="timer_done">"Listo"</string>
+    <string msgid="4933184831583137249" name="timer_notification_label">"Temporizador"</string>
+    <string msgid="8645224089494875062" name="timer_plus_1_min">"Añadir 1 min"</string>
+    <string msgid="6631211310420106116" name="timer_plus_one">"Añadir 1 minuto"</string>
+    <string msgid="7848424809190171640" name="timer_reset">"Borrar"</string>
+    <string msgid="2620214305660322415" name="timer_ring_service_desc">"Reproducción de temporizadores definidos en el reloj"</string>
+    <string name="timer_settings">Temporizador</string>
+    <string msgid="6158486445614356442" name="timer_start">"Iniciar"</string>
+    <string msgid="3361154678667736722" name="timer_stop">"Detener"</string>
+    <string msgid="2730331837832462008" name="timer_stopped">"Temporizador detenido"</string>
+    <string msgid="9190440395938519009" name="timer_times_up">"Tiempo agotado"</string>
+    <string msgid="5570729467344408506" name="timers_in_use">"<ns1:g id="NUMBER">%d</ns1:g> temporizadores"</string>
+    <string msgid="9140022846793903813" name="timers_max_count_reached">"Máximo: 4 temporizadores"</string>
+    <string msgid="2393640808691864520" name="timers_stopped">"<ns1:g id="NUMBER">%d</ns1:g> temporizadores detenidos"</string>
+    <string name="url_paste_hint">Pegar URL</string>
+    <string name="vibrate_notification_summary">Activar la vibración para notificaciones de alarmas activas y para el temporizador</string>
+    <string name="vibrate_notification_title">Notificación de vibración</string>
+    <string msgid="8768042543750036853" name="volume_button_dialog_title">"Acción de los botones"</string>
+    <string msgid="6937131248843413357" name="volume_button_setting_title">"Botones de volumen"</string>
+    <string name="volume_increase_speed_title">Intervalo de aumento de volumen</string>
+    <string name="wear_notification_summary">Mostrar notificación de alarma y temporizador en dispositivos portátiles conectados</string>
+    <string name="wear_notification_title">Habilitar notificaciones en dispositivos portátiles conectados</string>
+    <string msgid="3425804832021006835" name="weather_fetch_failure">"La información meteorológica no está disponible en este momento."</string>
+    <string name="week_start_title">La semana comienza el</string>
+    <string name="world_clocks_title">Mostrar reloj mundial</string>
+    <string msgid="7102083421938355017" name="zero">"0"</string>
+</resources>

@@ -15,6 +15,7 @@
  */
 
 package org.omnirom.deskclock.worldclock;
+import org.omnirom.deskclock.R;
 
 import android.content.Context;
 import android.location.Address;

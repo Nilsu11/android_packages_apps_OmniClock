@@ -15,6 +15,7 @@
  */
 
 package org.omnirom.deskclock.timer;
+import org.omnirom.deskclock.R;
 
 import java.util.ArrayList;
 import java.util.Iterator;

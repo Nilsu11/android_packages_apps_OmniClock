@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/linux/modLOS/OmniClock/Clock/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/home/linux/modLOS/OmniClock/Clock/res/values-sw720dp-land/dimens.xml",
+                    "from": {
+                        "startLines": "21,30,24,23,28,26,27,25",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "821,1228,934,885,1159,1041,1096,988",
+                        "endColumns": "62,51,53,48,67,54,62,52",
+                        "endOffsets": "879,1275,983,929,1222,1091,1154,1036"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,118,170,224,273,341,396,459",
+                        "endColumns": "62,51,53,48,67,54,62,52",
+                        "endOffsets": "113,165,219,268,336,391,454,507"
+                    }
+                }
+            ]
+        }
+    ]
+}

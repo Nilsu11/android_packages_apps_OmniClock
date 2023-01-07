@@ -4,6 +4,7 @@
  */
 
 package org.omnirom.deskclock.preference;
+import org.omnirom.deskclock.R;
 
 import android.content.Context;
 import android.content.res.TypedArray;

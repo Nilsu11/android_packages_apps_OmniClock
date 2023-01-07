@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_offset_entries" translatable="false">
+        <item>@string/entry_select_offset</item>
+        <item>@string/entry_ten_minute</item>
+        <item>@string/entry_fifteen_minute</item>
+        <item>@string/entry_thirty_minute</item>
+        <item>@string/entry_sixty_minute</item>
+        <item>@string/entry_two_hours</item>
+        <item>@string/entry_six_hours</item>
+        <item>@string/entry_twelf_hours</item>
+    </string-array>
+    <string-array name="alarm_offset_values" translatable="false">
+        <item>0</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>360</item>
+        <item>720</item>
+    </string-array>
+</resources>

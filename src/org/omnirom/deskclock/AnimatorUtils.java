@@ -15,6 +15,7 @@
  */
 
 package org.omnirom.deskclock;
+import org.omnirom.deskclock.R;
 
 import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;

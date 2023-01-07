@@ -16,6 +16,7 @@
  *
  */
 package org.omnirom.deskclock.preference;
+import org.omnirom.deskclock.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

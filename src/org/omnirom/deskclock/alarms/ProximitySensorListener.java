@@ -32,6 +32,7 @@
  */
 
 package org.omnirom.deskclock.alarms;
+import org.omnirom.deskclock.R;
 
 import android.content.Context;
 import android.hardware.Sensor;

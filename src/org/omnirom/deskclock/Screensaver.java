@@ -15,6 +15,7 @@
  */
 
 package org.omnirom.deskclock;
+import org.omnirom.deskclock.R;
 
 import android.app.AlarmManager;
 import android.content.BroadcastReceiver;

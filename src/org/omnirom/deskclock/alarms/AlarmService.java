@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 package org.omnirom.deskclock.alarms;
+import org.omnirom.deskclock.R;
 
 import android.app.Notification;
 import android.app.PendingIntent;

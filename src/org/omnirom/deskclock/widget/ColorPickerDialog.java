@@ -16,6 +16,7 @@
  */
 
 package org.omnirom.deskclock.widget;
+import org.omnirom.deskclock.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+<shortcut
+    android:shortcutId="create_alarm"
+    android:enabled="true"
+    android:icon="@drawable/ic_shortcut_alarm"
+    android:shortcutShortLabel="@string/tile_create_alarm">
+    <intent
+        android:action="android.intent.action.SET_ALARM"
+        android:targetPackage="org.omnirom.deskclock"
+        android:targetClass="org.omnirom.deskclock.HandleApiCalls" />
+</shortcut>
+<shortcut
+    android:shortcutId="start_timer"
+    android:enabled="true"
+    android:icon="@drawable/ic_shortcut_timer"
+    android:shortcutShortLabel="@string/shortcut_start_timer">
+    <intent
+        android:action="android.intent.action.SET_TIMER"
+        android:targetPackage="org.omnirom.deskclock"
+        android:targetClass="org.omnirom.deskclock.HandleApiCalls" />
+</shortcut>
+<shortcut
+    android:shortcutId="start_stopwatch"
+    android:enabled="true"
+    android:icon="@drawable/ic_shortcut_stopwatch"
+    android:shortcutShortLabel="@string/shortcut_stopwatch">
+    <intent
+        android:action="org.omnirom.deskclock.ACTION_SHOW_STOPWATCH"
+        android:targetPackage="org.omnirom.deskclock"
+        android:targetClass="org.omnirom.deskclock.HandleApiCalls" />
+</shortcut>
+</shortcuts>
+

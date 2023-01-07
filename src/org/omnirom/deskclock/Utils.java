@@ -48,7 +48,6 @@ import android.preference.PreferenceManager;
 import android.provider.CalendarContract;
 import android.provider.MediaStore;
 import android.provider.OpenableColumns;
-import android.provider.Settings;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.TextUtils;
@@ -61,7 +60,6 @@ import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.webkit.MimeTypeMap;
-import android.widget.ImageView;
 import android.widget.TextClock;
 import android.widget.TextView;
 
@@ -82,7 +80,6 @@ import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.StringBufferInputStream;
 import java.io.StringReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -921,9 +918,7 @@ public class Utils {
     }
 
     public static int getThemeId(final Context context) {
-        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
-        String color = prefs.getString(SettingsActivity.KEY_COLOR_THEME, "0");
-        return Integer.valueOf(color);
+        return Integer.valueOf(PreferenceManager.getDefaultSharedPreferences(context).getString(SettingsActivity.KEY_COLOR_THEME, "0")).intValue();
     }
 
     public static int getThemeResourceId(final Context context) {

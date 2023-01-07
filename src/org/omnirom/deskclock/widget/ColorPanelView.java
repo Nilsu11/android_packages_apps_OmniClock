@@ -16,6 +16,7 @@
  */
 
 package org.omnirom.deskclock.widget;
+import org.omnirom.deskclock.R;
 
 import android.content.Context;
 import android.graphics.Canvas;

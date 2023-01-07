@@ -1,5 +1,6 @@
 
 package org.omnirom.deskclock.stopwatch;
+import org.omnirom.deskclock.R;
 
 import android.app.Notification;
 import android.app.NotificationManager;

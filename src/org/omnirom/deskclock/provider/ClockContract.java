@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 package org.omnirom.deskclock.provider;
+import org.omnirom.deskclock.R;
 
 import android.net.Uri;
 import android.provider.BaseColumns;

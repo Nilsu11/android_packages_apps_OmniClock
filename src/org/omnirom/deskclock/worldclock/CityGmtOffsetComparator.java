@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 package org.omnirom.deskclock.worldclock;
+import org.omnirom.deskclock.R;
 
 import java.util.Comparator;
 import java.util.TimeZone;

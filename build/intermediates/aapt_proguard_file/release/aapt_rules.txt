@@ -1,0 +1,231 @@
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:28
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:239
+-keep class org.omnirom.alarmclock.BinaryClockAppWidgetConfigure { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:196
+-keep class org.omnirom.alarmclock.BinaryClockAppWidgetProvider { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:221
+-keep class org.omnirom.alarmclock.BinaryClockAppWidgetProvider$BinaryClockUpdateService { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:234
+-keep class org.omnirom.alarmclock.CustomAnalogAppWidgetConfigure { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:162
+-keep class org.omnirom.alarmclock.CustomAnalogAppWidgetProvider { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:218
+-keep class org.omnirom.alarmclock.CustomAnalogAppWidgetProvider$AnalogClockUpdateService { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:229
+-keep class org.omnirom.alarmclock.CustomAppWidgetConfigure { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:178
+-keep class org.omnirom.alarmclock.CustomAppWidgetProvider { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:215
+-keep class org.omnirom.alarmclock.CustomAppWidgetProvider$ClockUpdateService { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:224
+-keep class org.omnirom.alarmclock.DigitalAppWidgetService { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:154
+-keep class org.omnirom.deskclock.AlarmInitReceiver { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:355
+-keep class org.omnirom.deskclock.AlarmTileService { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:342
+-keep class org.omnirom.deskclock.BrowseActivity { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:51
+-keep class org.omnirom.deskclock.DeskClock { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:122
+-keep class org.omnirom.deskclock.HandleApiCalls { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:246
+-keep class org.omnirom.deskclock.Screensaver { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:107
+-keep class org.omnirom.deskclock.ScreensaverActivity { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:264
+-keep class org.omnirom.deskclock.ScreensaverSettingsActivity { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:80
+-keep class org.omnirom.deskclock.SettingsActivity { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:290
+-keep class org.omnirom.deskclock.TimerRingService { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:98
+-keep class org.omnirom.deskclock.alarms.AlarmActivity { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:118
+-keep class org.omnirom.deskclock.alarms.AlarmService { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:114
+-keep class org.omnirom.deskclock.alarms.AlarmStateManager { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:41
+-keep class org.omnirom.deskclock.provider.ClockProvider { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:323
+-keep class org.omnirom.deskclock.stopwatch.StopwatchService { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:281
+-keep class org.omnirom.deskclock.timer.TimerAlertFullScreen { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:299
+-keep class org.omnirom.deskclock.timer.TimerReceiver { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:89
+-keep class org.omnirom.deskclock.worldclock.CitiesActivity { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/build/intermediates/merged_manifests/release/AndroidManifest.xml:45
+-keep class org.omnirom.deskclock.worldclock.db.DbCityProvider { <init>(); }
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/alarm_time.xml:23
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/main_clock_frame.xml:23
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/world_clock_list_item.xml:21
+-keep class android.support.v7.widget.CardView { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/menu/cities_menu.xml:18
+-keep class android.widget.SearchView { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_alert_dialog_button_bar_material.xml:43
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_alert_dialog_material.xml:52
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_alert_dialog_title_material.xml:56
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_select_dialog_material.xml:23
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_action_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_expanded_menu_layout.xml:17
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_cascading_menu_item_layout.xml:20
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_list_menu_item_layout.xml:17
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_popup_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout-v26/abc_screen_toolbar.xml:27
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_action_mode_bar.xml:19
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout-v26/abc_screen_toolbar.xml:44
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout-v26/abc_screen_toolbar.xml:17
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_action_menu_layout.xml:17
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_activity_chooser_view.xml:19
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_alert_dialog_material.xml:18
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_alert_dialog_button_bar_material.xml:26
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_screen_content_include.xml:19
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_alert_dialog_title_material.xml:45
+-keep class androidx.appcompat.widget.DialogTitle { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_screen_simple_overlay_action_mode.xml:23
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_dialog_title_material.xml:22
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_screen_simple.xml:17
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_search_view.xml:75
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout-v26/abc_screen_toolbar.xml:37
+-keep class androidx.appcompat.widget.Toolbar { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_screen_simple.xml:25
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_screen_simple_overlay_action_mode.xml:32
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/desk_clock.xml:28
+-keep class androidx.core.view.ViewPager { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/61c3f515ffa18fee8dec145af2d51b00/appcompat-1.0.2/res/layout/abc_alert_dialog_material.xml:41
+-keep class androidx.core.widget.NestedScrollView { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/5e2d03bf39b4aed4dcc16244f02f2a16/materialdatetimepicker-4.2.3/res/layout/mdtp_date_picker_selected_date.xml:28
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/5e2d03bf39b4aed4dcc16244f02f2a16/materialdatetimepicker-4.2.3/res/layout/mdtp_date_picker_selected_date_v2.xml:42
+-keep class com.wdullaer.materialdatetimepicker.AccessibleLinearLayout { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/5e2d03bf39b4aed4dcc16244f02f2a16/materialdatetimepicker-4.2.3/res/layout/mdtp_date_picker_selected_date.xml:67
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/5e2d03bf39b4aed4dcc16244f02f2a16/materialdatetimepicker-4.2.3/res/layout/mdtp_date_picker_selected_date_v2.xml:29
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/5e2d03bf39b4aed4dcc16244f02f2a16/materialdatetimepicker-4.2.3/res/layout/mdtp_time_header_label.xml:53
+-keep class com.wdullaer.materialdatetimepicker.AccessibleTextView { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/5e2d03bf39b4aed4dcc16244f02f2a16/materialdatetimepicker-4.2.3/res/layout-land/mdtp_date_picker_header_view_v2.xml:17
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/5e2d03bf39b4aed4dcc16244f02f2a16/materialdatetimepicker-4.2.3/res/layout-land/mdtp_time_title_view_v2.xml:17
+-keep class com.wdullaer.materialdatetimepicker.VerticalTextView { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/5e2d03bf39b4aed4dcc16244f02f2a16/materialdatetimepicker-4.2.3/res/layout/mdtp_date_picker_view_animator.xml:19
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/5e2d03bf39b4aed4dcc16244f02f2a16/materialdatetimepicker-4.2.3/res/layout/mdtp_date_picker_view_animator_v2.xml:19
+-keep class com.wdullaer.materialdatetimepicker.date.AccessibleDateAnimator { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/5e2d03bf39b4aed4dcc16244f02f2a16/materialdatetimepicker-4.2.3/res/layout/mdtp_year_label_text_view.xml:16
+-keep class com.wdullaer.materialdatetimepicker.date.TextViewWithCircularIndicator { <init>(...); }
+
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/5e2d03bf39b4aed4dcc16244f02f2a16/materialdatetimepicker-4.2.3/res/layout/mdtp_time_picker_dialog.xml:40
+# Referenced at /home/linux/.gradle/caches/transforms-2/files-2.1/5e2d03bf39b4aed4dcc16244f02f2a16/materialdatetimepicker-4.2.3/res/layout/mdtp_time_picker_dialog_v2.xml:40
+-keep class com.wdullaer.materialdatetimepicker.time.RadialPickerLayout { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/desk_clock_saver.xml:52
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/main_clock_frame.xml:44
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/world_clock_list_item.xml:86
+-keep class org.omnirom.deskclock.AnalogClock { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/stopwatch_fragment.xml:29
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/timer_list_item.xml:27
+-keep class org.omnirom.deskclock.CircleButtonsLayout { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/stopwatch_fragment.xml:38
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/timer_list_item.xml:35
+-keep class org.omnirom.deskclock.CircleTimerView { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/timer_full_screen_fragment.xml:47
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/timer_setup_view.xml:17
+-keep class org.omnirom.deskclock.TimerSetupView { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/timer_timer_view.xml:66
+-keep class org.omnirom.deskclock.VerticalViewPager { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/xml/settings.xml:78
+-keep class org.omnirom.deskclock.preference.AutoSilencePickerPreference { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/xml/binary_clock_appwidget_configure.xml:28
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/xml/custom_analog_appwidget_configure.xml:33
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/xml/custom_appwidget_configure.xml:32
+-keep class org.omnirom.deskclock.preference.ColorPickerPreference { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/xml/binary_clock_appwidget_configure.xml:32
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/xml/custom_appwidget_configure.xml:28
+-keep class org.omnirom.deskclock.preference.FontPreference { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/xml/settings.xml:87
+-keep class org.omnirom.deskclock.preference.NumberPickerPreference { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/stopwatch_fragment.xml:44
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/timer_list_item.xml:41
+-keep class org.omnirom.deskclock.timer.CountingTimerView { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/timer_list_item.xml:18
+-keep class org.omnirom.deskclock.timer.TimerListItem { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/time_setup_view.xml:22
+-keep class org.omnirom.deskclock.timer.TimerView { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/desk_clock.xml:125
+-keep class org.omnirom.deskclock.widget.ActionableToastBar { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/dialog_color_picker.xml:46
+-keep class org.omnirom.deskclock.widget.ColorPanelView { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/dialog_color_picker.xml:24
+-keep class org.omnirom.deskclock.widget.ColorPickerView { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/alarm_time.xml:209
+-keep class org.omnirom.deskclock.widget.EllipsizeLayout { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/desk_clock.xml:110
+-keep class org.omnirom.deskclock.widget.SlidingTabLayout { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/alarm_time.xml:57
+-keep class org.omnirom.deskclock.widget.TextTime { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/timer_full_screen_fragment.xml:28
+-keep class org.omnirom.deskclock.widget.sgv.StaggeredGridView { <init>(...); }
+
+# Referenced at /home/linux/modLOS/OmniClock/Clock/res/layout/preference_button.xml:17
+-keepclassmembers class * { *** handleOkClick(android.view.View); }
+

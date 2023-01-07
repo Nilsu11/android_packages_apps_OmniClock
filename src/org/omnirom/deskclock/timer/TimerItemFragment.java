@@ -15,6 +15,7 @@
  */
 
 package org.omnirom.deskclock.timer;
+import org.omnirom.deskclock.R;
 
 import android.app.Activity;
 import android.app.Fragment;

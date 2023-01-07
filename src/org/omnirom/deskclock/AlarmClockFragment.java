@@ -21,6 +21,7 @@ import android.animation.ObjectAnimator;
 import android.app.DialogFragment;
 import android.app.Fragment;
 import android.app.LoaderManager;
+//import android.app.TimePickerDialog;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
@@ -38,10 +39,9 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.preference.PreferenceManager;
-import android.provider.OpenableColumns;
-import android.support.v13.app.FragmentCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.widget.CardView;
+import androidx.legacy.app.FragmentCompat;
+import androidx.core.content.ContextCompat;
+import androidx.cardview.widget.CardView;
 import android.text.TextUtils;
 import android.transition.AutoTransition;
 import android.transition.Transition;
@@ -83,7 +83,7 @@ import java.util.Locale;
 /**
  * AlarmClock application.
  */
-public class AlarmClockFragment extends DeskClockFragment implements
+public abstract class AlarmClockFragment extends DeskClockFragment implements
         LoaderManager.LoaderCallbacks<Cursor>,
         TimePickerDialog.OnTimeSetListener,
         View.OnTouchListener,
@@ -305,7 +305,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
     }
 
     // Callback used by TimePickerDialog
-    @Override
+    //@Override
     public void onTimeSet(RadialPickerLayout timePicker, int hourOfDay, int minute, int seconds) {
         if (mCloneAlarm && mSelectedAlarm != null) {
             cloneAlarm(mSelectedAlarm, hourOfDay, minute);
